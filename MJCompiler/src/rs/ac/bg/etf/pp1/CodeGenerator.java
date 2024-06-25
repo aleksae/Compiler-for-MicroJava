@@ -58,16 +58,16 @@ public class CodeGenerator extends VisitorAdaptor {
 	CodeGenerator(){
 		Tab.chrObj.setAdr(Code.pc);
 	    Code.put(Code.enter);
-	    Code.put(1);
-	    Code.put(1);
+	    Code.put(Code.load);
+	    Code.put(Code.load);
 	    Code.put(Code.load_n);
 	    Code.put(Code.exit);
 	    Code.put(Code.return_);
 
 	    Tab.ordObj.setAdr(Code.pc);
 	    Code.put(Code.enter);
-	    Code.put(1);
-	    Code.put(1);
+	    Code.put(Code.load);
+	    Code.put(Code.load);
 	    Code.put(Code.load_n);
 	    Code.put(Code.exit);
 	    Code.put(Code.return_);
@@ -165,6 +165,12 @@ public class CodeGenerator extends VisitorAdaptor {
 		}else if(hasFuncCall) {
 			//Code.put(Code.pop);
 			report_info("aaeee4",ps);
+			if(ps.getExpr().obj.getType().equals(Tab.charType)) {
+				Code.loadConst(1);
+				Code.put(Code.bprint);
+				hasFuncCall=false;
+				return;
+			}
 			Code.loadConst(5);
 			Code.put(Code.print);
 			hasFuncCall=false;
@@ -423,9 +429,20 @@ public class CodeGenerator extends VisitorAdaptor {
 		}
 		/*Code.put(Code.dup_x1);
 		Code.put(Code.pop);*/
+		if(r.getDesignator() instanceof DesignatorIdentBrackets) {
+			printHasBrackets = false;
+			if(r.getDesignator().obj.getType().getElemType().getKind()==1)
+			Code.put(Code.astore);
+			else Code.put(Code.bastore);
+			//Code.put(Code.pop);
+			//Code.put(Code.pop);
+		}
+		else{
+			Code.store(r.getDesignator().obj);
+		}
 		
-		Code.store(r.getDesignator().obj);
-		Code.put(Code.pop);
 		//Code.put(Code.pop);
+		//Code.put(Code.pop);
+		
 	}
 }

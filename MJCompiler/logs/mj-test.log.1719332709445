@@ -1,0 +1,247 @@
+INFO  18:24:35,216 - Compiling source file: D:\ETF\rti.PP1\projekat_treca_faza_jul\workspace\MJCompiler\test\program.mj
+INFO  18:24:35,282 - #3 program
+INFO  18:24:35,282 - #47 test301
+INFO  18:24:35,282 - #23 const
+INFO  18:24:35,283 - #47 int
+INFO  18:24:35,284 - #47 nula
+INFO  18:24:35,284 - #21 =
+INFO  18:24:35,284 - #48 0
+INFO  18:24:35,285 - #15 ;
+INFO  18:24:35,285 - #23 const
+INFO  18:24:35,285 - #47 int
+INFO  18:24:35,286 - #47 jedan
+INFO  18:24:35,286 - #21 =
+INFO  18:24:35,286 - #48 1
+INFO  18:24:35,286 - #15 ;
+INFO  18:24:35,286 - #23 const
+INFO  18:24:35,286 - #47 int
+INFO  18:24:35,286 - #47 pet
+INFO  18:24:35,286 - #21 =
+INFO  18:24:35,286 - #48 5
+INFO  18:24:35,286 - #15 ;
+INFO  18:24:35,287 - #47 int
+INFO  18:24:35,288 - #47 niz
+INFO  18:24:35,288 - #26 [
+INFO  18:24:35,288 - #42 ]
+INFO  18:24:35,288 - #9 ,
+INFO  18:24:35,289 - #47 niz2
+INFO  18:24:35,289 - #26 [
+INFO  18:24:35,289 - #42 ]
+INFO  18:24:35,289 - #15 ;
+INFO  18:24:35,289 - #47 char
+INFO  18:24:35,290 - #47 nizch
+INFO  18:24:35,290 - #26 [
+INFO  18:24:35,290 - #42 ]
+INFO  18:24:35,290 - #15 ;
+INFO  18:24:35,290 - #20 {
+INFO  18:24:35,291 - #11 void
+INFO  18:24:35,291 - #47 main
+INFO  18:24:35,292 - #4 (
+INFO  18:24:35,292 - #5 )
+INFO  18:24:35,293 - #47 int
+INFO  18:24:35,293 - #47 bodovi
+INFO  18:24:35,293 - #15 ;
+INFO  18:24:35,293 - #47 bool
+INFO  18:24:35,293 - #47 bt
+INFO  18:24:35,293 - #15 ;
+INFO  18:24:35,294 - #20 {
+INFO  18:24:35,294 - #10 print
+INFO  18:24:35,295 - #4 (
+INFO  18:24:35,295 - #47 chr
+INFO  18:24:35,295 - #4 (
+INFO  18:24:35,295 - #48 97
+INFO  18:24:35,296 - #5 )
+INFO  18:24:35,299 - #5 )
+INFO  18:24:35,299 - #15 ;
+INFO  18:24:35,299 - #40 }
+INFO  18:24:35,299 - #40 }
+INFO  18:24:35,305 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  DecleareConst(
+    ConstDeclaration(
+      TypeNoColon(
+       int
+      ) [TypeNoColon]
+      ConstName(
+       nula
+      ) [ConstName]
+      NumConst(
+       0
+      ) [NumConst]
+      NoRepeatConstDecl(
+      ) [NoRepeatConstDecl]
+    ) [ConstDeclaration]
+    DecleareConst(
+      ConstDeclaration(
+        TypeNoColon(
+         int
+        ) [TypeNoColon]
+        ConstName(
+         jedan
+        ) [ConstName]
+        NumConst(
+         1
+        ) [NumConst]
+        NoRepeatConstDecl(
+        ) [NoRepeatConstDecl]
+      ) [ConstDeclaration]
+      DecleareConst(
+        ConstDeclaration(
+          TypeNoColon(
+           int
+          ) [TypeNoColon]
+          ConstName(
+           pet
+          ) [ConstName]
+          NumConst(
+           5
+          ) [NumConst]
+          NoRepeatConstDecl(
+          ) [NoRepeatConstDecl]
+        ) [ConstDeclaration]
+        DeclVariable(
+          VariableDeclarationArray(
+            TypeNoColon(
+             int
+            ) [TypeNoColon]
+            VariableName(
+             niz
+            ) [VariableName]
+            VarDeclRepeatArr(
+              NoVarDeclRepeat(
+              ) [NoVarDeclRepeat]
+              VariableName(
+               niz2
+              ) [VariableName]
+            ) [VarDeclRepeatArr]
+          ) [VariableDeclarationArray]
+          DeclVariable(
+            VariableDeclarationArray(
+              TypeNoColon(
+               char
+              ) [TypeNoColon]
+              VariableName(
+               nizch
+              ) [VariableName]
+              NoVarDeclRepeat(
+              ) [NoVarDeclRepeat]
+            ) [VariableDeclarationArray]
+            NoDecl(
+            ) [NoDecl]
+          ) [DeclVariable]
+        ) [DeclVariable]
+      ) [DecleareConst]
+    ) [DecleareConst]
+  ) [DecleareConst]
+  MethodDeclaration(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodName(
+      TypeVoid(
+      ) [TypeVoid]
+     main
+    ) [MethodName]
+    NoFormParams(
+    ) [NoFormParams]
+    MethodVarDeclaration(
+      VariableDeclaration(
+        TypeNoColon(
+         int
+        ) [TypeNoColon]
+        VariableName(
+         bodovi
+        ) [VariableName]
+        NoVarDeclRepeat(
+        ) [NoVarDeclRepeat]
+      ) [VariableDeclaration]
+      MethodVarDeclaration(
+        VariableDeclaration(
+          TypeNoColon(
+           bool
+          ) [TypeNoColon]
+          VariableName(
+           bt
+          ) [VariableName]
+          NoVarDeclRepeat(
+          ) [NoVarDeclRepeat]
+        ) [VariableDeclaration]
+        NoMethodVarDecl(
+        ) [NoMethodVarDecl]
+      ) [MethodVarDeclaration]
+    ) [MethodVarDeclaration]
+    RepeatStmnt(
+      NoRepeatStmnt(
+      ) [NoRepeatStmnt]
+      PrintStatement(
+        Expression(
+          Term(
+            FactorDesignatorBrace(
+              NoDesignatorRepetable(
+                DesignatorRegular(
+                 chr
+                ) [DesignatorRegular]
+              ) [NoDesignatorRepetable]
+              ActParse(
+                Expression(
+                  Term(
+                    FactorNum(
+                     97
+                    ) [FactorNum]
+                    NoRepTerm(
+                    ) [NoRepTerm]
+                  ) [Term]
+                  NoExpressionRepetable(
+                  ) [NoExpressionRepetable]
+                ) [Expression]
+                RepetableActParseEmpty(
+                ) [RepetableActParseEmpty]
+              ) [ActParse]
+            ) [FactorDesignatorBrace]
+            NoRepTerm(
+            ) [NoRepTerm]
+          ) [Term]
+          NoExpressionRepetable(
+          ) [NoExpressionRepetable]
+        ) [Expression]
+      ) [PrintStatement]
+    ) [RepeatStmnt]
+  ) [MethodDeclaration]
+) [Program]
+INFO  18:24:35,305 - ===================================
+INFO  18:24:35,308 - Pronadjen je program sa imenom test301 na liniji 3
+INFO  18:24:35,308 - Tekuci tip promenljive int na liniji 5
+INFO  18:24:35,308 - Detektovana konstanta nula na liniji 5
+INFO  18:24:35,309 - Tekuci tip promenljive int na liniji 6
+INFO  18:24:35,309 - Detektovana konstanta jedan na liniji 6
+INFO  18:24:35,309 - Tekuci tip promenljive int na liniji 7
+INFO  18:24:35,309 - Detektovana konstanta pet na liniji 7
+INFO  18:24:35,309 - Tekuci tip promenljive int na liniji 9
+INFO  18:24:35,309 - Detektovana promenljiva niz na liniji 9
+INFO  18:24:35,309 - Detektovana promenljiva niz2 na liniji 9
+INFO  18:24:35,309 - Tekuci tip promenljive char na liniji 10
+INFO  18:24:35,309 - Detektovana promenljiva nizch na liniji 10
+INFO  18:24:35,309 - Povratni tip void
+INFO  18:24:35,309 - Detektovana je metoda main uz povratni tip rs.etf.pp1.symboltable.concepts.Struct@31206beb na liniji 13
+INFO  18:24:35,309 - Tekuci tip promenljive int na liniji 14
+INFO  18:24:35,309 - Detektovana promenljiva bodovi na liniji 14
+INFO  18:24:35,310 - Tekuci tip promenljive je bool na liniji 15
+INFO  18:24:35,310 - Detektovana promenljiva bt na liniji 15
+INFO  18:24:35,310 - Objekat dodat desigantoru chr na liniji 20
+INFO  18:24:35,310 - Cc num je sada objekat sa imenom 97 na liniji 20
+INFO  18:24:35,310 - Kraj tekuce metode
+INFO  18:24:35,310 - Zavrsen je program  na liniji 3
+INFO  18:24:35,310 -  Print count calls = 0
+INFO  18:24:35,310 -  Deklarisanih promenljivih ima = 0
+INFO  18:24:35,310 - ===================================
+INFO  18:24:35,313 - 0 na liniji 5
+INFO  18:24:35,313 - 1 na liniji 6
+INFO  18:24:35,313 - 5 na liniji 7
+INFO  18:24:35,315 - 2 na liniji 13
+INFO  18:24:35,315 - 0 na liniji 13
+INFO  18:24:35,315 - Put za 97 na liniji 20
+INFO  18:24:35,315 - aaeee4 na liniji 20
+INFO  18:24:35,315 - Parsiranje uspesno zavrseno!
