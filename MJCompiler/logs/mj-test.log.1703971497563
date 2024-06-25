@@ -1,0 +1,85 @@
+INFO  22:23:39,788 - Compiling source file: D:\ETF\rti.PP1\projekat\workspace\MJCompiler\test\program.mj
+INFO  22:23:39,823 - #2 program
+INFO  22:23:39,823 - #49 MJProgram
+INFO  22:23:39,823 - #49 int
+INFO  22:23:39,824 - #49 a
+INFO  22:23:39,824 - #8 ,
+INFO  22:23:39,824 - #49 b
+INFO  22:23:39,824 - #14 ;
+INFO  22:23:39,825 - #49 double
+INFO  22:23:39,825 - #49 c
+INFO  22:23:39,825 - #14 ;
+INFO  22:23:39,825 - #19 {
+INFO  22:23:39,826 - #49 int
+INFO  22:23:39,826 - #49 sum
+INFO  22:23:39,826 - #3 (
+INFO  22:23:39,826 - #49 int
+INFO  22:23:39,826 - #49 z
+INFO  22:23:39,827 - #8 ,
+INFO  22:23:39,827 - #49 int
+INFO  22:23:39,827 - #49 d
+INFO  22:23:39,827 - #4 )
+INFO  22:23:39,828 - #19 {
+INFO  22:23:39,828 - #42 }
+INFO  22:23:39,830 - #42 }
+INFO  22:23:39,832 - Program(
+ MJProgram
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVariable(
+    VariableDeclaration(
+      TypeNoColon(
+       int
+      ) [TypeNoColon]
+     a
+      VarDeclarationRepeat(
+       b
+        NoVarDeclRepeat(
+        ) [NoVarDeclRepeat]
+      ) [VarDeclarationRepeat]
+    ) [VariableDeclaration]
+    DeclVariable(
+      VariableDeclaration(
+        TypeNoColon(
+         double
+        ) [TypeNoColon]
+       c
+        NoVarDeclRepeat(
+        ) [NoVarDeclRepeat]
+      ) [VariableDeclaration]
+      NoDecl(
+      ) [NoDecl]
+    ) [DeclVariable]
+  ) [DeclVariable]
+  MethodDeclaration(
+    TypeType(
+      TypeNoColon(
+       int
+      ) [TypeNoColon]
+    ) [TypeType]
+   sum
+    FormParamReg(
+      TypeNoColon(
+       int
+      ) [TypeNoColon]
+     z
+      FormParamRepeat(
+        TypeNoColon(
+         int
+        ) [TypeNoColon]
+       d
+        NoRepeatFormParam(
+        ) [NoRepeatFormParam]
+      ) [FormParamRepeat]
+    ) [FormParamReg]
+    NoMethodVarDecl(
+    ) [NoMethodVarDecl]
+    NoRepeatStmnt(
+    ) [NoRepeatStmnt]
+  ) [MethodDeclaration]
+) [Program]
+INFO  22:23:39,832 - ===================================
+INFO  22:23:39,833 -  Print count calls = 0
+INFO  22:23:39,833 -  Namespaces declared = 0
+INFO  22:23:39,833 - Array varibale decl = 0
+INFO  22:23:39,833 - Array repeat varibale decl = 0

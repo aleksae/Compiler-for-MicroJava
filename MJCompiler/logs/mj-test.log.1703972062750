@@ -1,0 +1,54 @@
+INFO  22:29:37,151 - Compiling source file: D:\ETF\rti.PP1\projekat\workspace\MJCompiler\test\program.mj
+INFO  22:29:37,182 - #2 program
+INFO  22:29:37,182 - #49 MJProgram
+INFO  22:29:37,182 - #19 {
+INFO  22:29:37,183 - #49 int
+INFO  22:29:37,183 - #49 sum
+INFO  22:29:37,184 - #3 (
+INFO  22:29:37,184 - #49 int
+INFO  22:29:37,184 - #49 z
+INFO  22:29:37,184 - #8 ,
+INFO  22:29:37,184 - #49 int
+INFO  22:29:37,184 - #49 d
+INFO  22:29:37,184 - #4 )
+INFO  22:29:37,186 - #19 {
+INFO  22:29:37,186 - #42 }
+INFO  22:29:37,187 - #42 }
+INFO  22:29:37,188 - Program(
+ MJProgram
+  NoNamespace(
+  ) [NoNamespace]
+  NoDecl(
+  ) [NoDecl]
+  MethodDeclaration(
+    TypeType(
+      TypeNoColon(
+       int
+      ) [TypeNoColon]
+    ) [TypeType]
+   sum
+    FormParamReg(
+      TypeNoColon(
+       int
+      ) [TypeNoColon]
+     z
+      FormParamRepeat(
+        TypeNoColon(
+         int
+        ) [TypeNoColon]
+       d
+        NoRepeatFormParam(
+        ) [NoRepeatFormParam]
+      ) [FormParamRepeat]
+    ) [FormParamReg]
+    NoMethodVarDecl(
+    ) [NoMethodVarDecl]
+    NoRepeatStmnt(
+    ) [NoRepeatStmnt]
+  ) [MethodDeclaration]
+) [Program]
+INFO  22:29:37,189 - ===================================
+INFO  22:29:37,190 -  Print count calls = 0
+INFO  22:29:37,191 -  Namespaces declared = 0
+INFO  22:29:37,191 - Array varibale decl = 0
+INFO  22:29:37,191 - Array repeat varibale decl = 0

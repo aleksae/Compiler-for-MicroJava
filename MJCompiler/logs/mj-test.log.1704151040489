@@ -1,0 +1,262 @@
+INFO  00:16:50,223 - Compiling source file: D:\ETF\rti.PP1\projekat\workspace\MJCompiler\test\program.mj
+INFO  00:16:50,287 - #2 program
+INFO  00:16:50,288 - #49 MJProgram
+INFO  00:16:50,288 - #39 namespace
+INFO  00:16:50,288 - #49 MojImenskiProstor
+INFO  00:16:50,288 - #19 {
+INFO  00:16:50,288 - #22 const
+INFO  00:16:50,288 - #49 int
+INFO  00:16:50,288 - #49 v
+INFO  00:16:50,288 - #20 =
+INFO  00:16:50,289 - #14 ;
+ERROR 00:16:50,289 - 
+Sintaksna greska na liniji 5
+INFO  00:16:50,289 - #22 const
+INFO  00:16:50,289 - #49 bool
+INFO  00:16:50,289 - #49 d
+ERROR 00:16:50,290 - Izvrsen oporavak do ; u liniji 5
+INFO  00:16:50,290 - #20 =
+INFO  00:16:50,291 - #23 true
+INFO  00:16:50,291 - #14 ;
+INFO  00:16:50,295 - #49 int
+INFO  00:16:50,296 - #49 arr
+INFO  00:16:50,296 - #27 [
+INFO  00:16:50,296 - #8 ,
+ERROR 00:16:50,297 - 
+Sintaksna greska na liniji 7
+INFO  00:16:50,297 - #49 smt
+INFO  00:16:50,297 - #20 =
+INFO  00:16:50,297 - #25 5
+INFO  00:16:50,297 - #14 ;
+INFO  00:16:50,297 - #49 bool
+INFO  00:16:50,297 - #49 arr2
+INFO  00:16:50,297 - #27 [
+ERROR 00:16:50,297 - Izvrsen oporavak do ; u liniji 7
+INFO  00:16:50,297 - #44 ]
+INFO  00:16:50,297 - #14 ;
+INFO  00:16:50,298 - #19 {
+INFO  00:16:50,299 - #10 void
+INFO  00:16:50,300 - #49 metoda
+INFO  00:16:50,300 - #3 (
+INFO  00:16:50,300 - #4 )
+INFO  00:16:50,301 - #49 int
+INFO  00:16:50,301 - #49 a
+INFO  00:16:50,301 - #14 ;
+INFO  00:16:50,301 - #49 bool
+INFO  00:16:50,301 - #49 d
+INFO  00:16:50,301 - #14 ;
+INFO  00:16:50,301 - #19 {
+INFO  00:16:50,302 - #50 if
+INFO  00:16:50,303 - #3 (
+INFO  00:16:50,303 - #49 v
+INFO  00:16:50,303 - #31 ==
+INFO  00:16:50,305 - #49 c
+INFO  00:16:50,306 - #4 )
+INFO  00:16:50,308 - #6 return
+INFO  00:16:50,308 - #49 v
+INFO  00:16:50,308 - #14 ;
+INFO  00:16:50,308 - #49 Nizovi
+INFO  00:16:50,309 - #11 :
+INFO  00:16:50,309 - #11 :
+INFO  00:16:50,309 - #49 nizch
+INFO  00:16:50,309 - #27 [
+INFO  00:16:50,309 - #49 Konstante
+INFO  00:16:50,309 - #11 :
+INFO  00:16:50,310 - #11 :
+INFO  00:16:50,310 - #49 jedan
+INFO  00:16:50,310 - #44 ]
+INFO  00:16:50,310 - #20 =
+INFO  00:16:50,310 - #40 'b'
+INFO  00:16:50,310 - #14 ;
+INFO  00:16:50,311 - #42 }
+INFO  00:16:50,311 - #42 }
+INFO  00:16:50,311 - #42 }
+INFO  00:16:50,312 - #19 {
+INFO  00:16:50,312 - #42 }
+INFO  00:16:50,314 - Program(
+ MJProgram
+  HasNamespace(
+   MojImenskiProstor
+    DeclVariable(
+      ErrorStmtSemi(
+      ) [ErrorStmtSemi]
+      DecleareConst(
+        ConstDeclaration(
+          TypeNoColon(
+           bool
+          ) [TypeNoColon]
+         d
+          BoolConst(
+          ) [BoolConst]
+          NoRepeatConstDecl(
+          ) [NoRepeatConstDecl]
+        ) [ConstDeclaration]
+        DeclVariable(
+          ErrorStmtSemi(
+          ) [ErrorStmtSemi]
+          DeclVariable(
+            VariableDeclarationArray(
+              TypeNoColon(
+               bool
+              ) [TypeNoColon]
+             arr2
+              NoVarDeclRepeat(
+              ) [NoVarDeclRepeat]
+            ) [VariableDeclarationArray]
+            NoDecl(
+            ) [NoDecl]
+          ) [DeclVariable]
+        ) [DeclVariable]
+      ) [DecleareConst]
+    ) [DeclVariable]
+    MethodDeclaration(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      TypeVoid(
+      ) [TypeVoid]
+     metoda
+      NoFormParams(
+      ) [NoFormParams]
+      MethodVarDeclaration(
+        VariableDeclaration(
+          TypeNoColon(
+           int
+          ) [TypeNoColon]
+         a
+          NoVarDeclRepeat(
+          ) [NoVarDeclRepeat]
+        ) [VariableDeclaration]
+        MethodVarDeclaration(
+          VariableDeclaration(
+            TypeNoColon(
+             bool
+            ) [TypeNoColon]
+           d
+            NoVarDeclRepeat(
+            ) [NoVarDeclRepeat]
+          ) [VariableDeclaration]
+          NoMethodVarDecl(
+          ) [NoMethodVarDecl]
+        ) [MethodVarDeclaration]
+      ) [MethodVarDeclaration]
+      RepeatStmnt(
+        RepeatStmnt(
+          NoRepeatStmnt(
+          ) [NoRepeatStmnt]
+          StatementIfNoElse(
+            Condition(
+              CondTermDerived1(
+                CondFactDerived2(
+                  Expression(
+                    Term(
+                      FactorDesignator(
+                        NoDesignatorRepetable(
+                          DesignatorRegular(
+                           v
+                          ) [DesignatorRegular]
+                        ) [NoDesignatorRepetable]
+                      ) [FactorDesignator]
+                      NoRepTerm(
+                      ) [NoRepTerm]
+                    ) [Term]
+                    NoExpressionRepetable(
+                    ) [NoExpressionRepetable]
+                  ) [Expression]
+                  RelopDerived1(
+                  ) [RelopDerived1]
+                  Expression(
+                    Term(
+                      FactorDesignator(
+                        NoDesignatorRepetable(
+                          DesignatorRegular(
+                           c
+                          ) [DesignatorRegular]
+                        ) [NoDesignatorRepetable]
+                      ) [FactorDesignator]
+                      NoRepTerm(
+                      ) [NoRepTerm]
+                    ) [Term]
+                    NoExpressionRepetable(
+                    ) [NoExpressionRepetable]
+                  ) [Expression]
+                ) [CondFactDerived2]
+                NoCondFactRep(
+                ) [NoCondFactRep]
+              ) [CondTermDerived1]
+              NoCondTermRep(
+              ) [NoCondTermRep]
+            ) [Condition]
+            ReturnStatement(
+              Expression(
+                Term(
+                  FactorDesignator(
+                    NoDesignatorRepetable(
+                      DesignatorRegular(
+                       v
+                      ) [DesignatorRegular]
+                    ) [NoDesignatorRepetable]
+                  ) [FactorDesignator]
+                  NoRepTerm(
+                  ) [NoRepTerm]
+                ) [Term]
+                NoExpressionRepetable(
+                ) [NoExpressionRepetable]
+              ) [Expression]
+            ) [ReturnStatement]
+          ) [StatementIfNoElse]
+        ) [RepeatStmnt]
+        StatementDesign(
+          DesignatorStmntOne(
+            DesignatorIdentBrackets(
+              NoDesignatorRepetable(
+                DesignatorReach(
+                 Nizovi
+                 nizch
+                ) [DesignatorReach]
+              ) [NoDesignatorRepetable]
+              Expression(
+                Term(
+                  FactorDesignator(
+                    NoDesignatorRepetable(
+                      DesignatorReach(
+                       Konstante
+                       jedan
+                      ) [DesignatorReach]
+                    ) [NoDesignatorRepetable]
+                  ) [FactorDesignator]
+                  NoRepTerm(
+                  ) [NoRepTerm]
+                ) [Term]
+                NoExpressionRepetable(
+                ) [NoExpressionRepetable]
+              ) [Expression]
+            ) [DesignatorIdentBrackets]
+            DesignatorStatementAssign(
+              Expression(
+                Term(
+                  FactorChar(
+                  ) [FactorChar]
+                  NoRepTerm(
+                  ) [NoRepTerm]
+                ) [Term]
+                NoExpressionRepetable(
+                ) [NoExpressionRepetable]
+              ) [Expression]
+            ) [DesignatorStatementAssign]
+          ) [DesignatorStmntOne]
+        ) [StatementDesign]
+      ) [RepeatStmnt]
+    ) [MethodDeclaration]
+    NoNamespace(
+    ) [NoNamespace]
+  ) [HasNamespace]
+  NoDecl(
+  ) [NoDecl]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  00:16:50,315 - ===================================
+INFO  00:16:50,317 -  Print count calls = 0
+INFO  00:16:50,318 -  Namespaces declared = 1
+INFO  00:16:50,318 - Array varibale decl = 1
+INFO  00:16:50,318 - Array repeat varibale decl = 0

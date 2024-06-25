@@ -1,0 +1,209 @@
+INFO  13:25:43,876 - Compiling source file: D:\ETF\rti.PP1\projekat_treca_faza_jul\workspace\MJCompiler\test\program.mj
+INFO  13:25:43,936 - #3 program
+INFO  13:25:43,936 - #47 MJProgram
+INFO  13:25:43,936 - #47 char
+INFO  13:25:43,937 - #47 a
+INFO  13:25:43,938 - #15 ;
+INFO  13:25:43,938 - #47 bool
+INFO  13:25:43,938 - #47 boolean
+INFO  13:25:43,938 - #15 ;
+INFO  13:25:43,939 - #47 int
+INFO  13:25:43,939 - #47 b
+INFO  13:25:43,939 - #26 [
+INFO  13:25:43,939 - #42 ]
+INFO  13:25:43,939 - #9 ,
+INFO  13:25:43,939 - #47 k
+INFO  13:25:43,939 - #9 ,
+INFO  13:25:43,939 - #47 s
+INFO  13:25:43,940 - #26 [
+INFO  13:25:43,940 - #42 ]
+INFO  13:25:43,940 - #15 ;
+INFO  13:25:43,940 - #20 {
+INFO  13:25:43,941 - #11 void
+INFO  13:25:43,943 - #47 main
+INFO  13:25:43,944 - #4 (
+INFO  13:25:43,945 - #5 )
+INFO  13:25:43,945 - #47 bool
+INFO  13:25:43,945 - #47 bb
+INFO  13:25:43,945 - #15 ;
+INFO  13:25:43,945 - #47 int
+INFO  13:25:43,945 - #47 moj
+INFO  13:25:43,945 - #26 [
+INFO  13:25:43,945 - #42 ]
+INFO  13:25:43,945 - #15 ;
+INFO  13:25:43,946 - #20 {
+INFO  13:25:43,946 - #47 k
+INFO  13:25:43,947 - #21 =
+INFO  13:25:43,947 - #48 1
+INFO  13:25:43,947 - #15 ;
+INFO  13:25:43,948 - #10 print
+INFO  13:25:43,949 - #4 (
+INFO  13:25:43,949 - #47 k
+INFO  13:25:43,949 - #5 )
+INFO  13:25:43,949 - #15 ;
+INFO  13:25:43,949 - #40 }
+INFO  13:25:43,949 - #40 }
+INFO  13:25:43,954 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVariable(
+    VariableDeclaration(
+      TypeNoColon(
+       char
+      ) [TypeNoColon]
+      VariableName(
+       a
+      ) [VariableName]
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+    ) [VariableDeclaration]
+    DeclVariable(
+      VariableDeclaration(
+        TypeNoColon(
+         bool
+        ) [TypeNoColon]
+        VariableName(
+         boolean
+        ) [VariableName]
+        NoVarDeclRepeat(
+        ) [NoVarDeclRepeat]
+      ) [VariableDeclaration]
+      DeclVariable(
+        VariableDeclarationArray(
+          TypeNoColon(
+           int
+          ) [TypeNoColon]
+          VariableName(
+           b
+          ) [VariableName]
+          VarDeclRepeatArr(
+            VarDeclarationRepeat(
+              NoVarDeclRepeat(
+              ) [NoVarDeclRepeat]
+              VariableName(
+               k
+              ) [VariableName]
+            ) [VarDeclarationRepeat]
+            VariableName(
+             s
+            ) [VariableName]
+          ) [VarDeclRepeatArr]
+        ) [VariableDeclarationArray]
+        NoDecl(
+        ) [NoDecl]
+      ) [DeclVariable]
+    ) [DeclVariable]
+  ) [DeclVariable]
+  MethodDeclaration(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodName(
+      TypeVoid(
+      ) [TypeVoid]
+     main
+    ) [MethodName]
+    NoFormParams(
+    ) [NoFormParams]
+    MethodVarDeclaration(
+      VariableDeclaration(
+        TypeNoColon(
+         bool
+        ) [TypeNoColon]
+        VariableName(
+         bb
+        ) [VariableName]
+        NoVarDeclRepeat(
+        ) [NoVarDeclRepeat]
+      ) [VariableDeclaration]
+      MethodVarDeclaration(
+        VariableDeclarationArray(
+          TypeNoColon(
+           int
+          ) [TypeNoColon]
+          VariableName(
+           moj
+          ) [VariableName]
+          NoVarDeclRepeat(
+          ) [NoVarDeclRepeat]
+        ) [VariableDeclarationArray]
+        NoMethodVarDecl(
+        ) [NoMethodVarDecl]
+      ) [MethodVarDeclaration]
+    ) [MethodVarDeclaration]
+    RepeatStmnt(
+      RepeatStmnt(
+        NoRepeatStmnt(
+        ) [NoRepeatStmnt]
+        StatementDesign(
+          DesignatorStmntOne(
+            NoDesignatorRepetable(
+              DesignatorRegular(
+               k
+              ) [DesignatorRegular]
+            ) [NoDesignatorRepetable]
+            DesignatorStatementAssign(
+              Expression(
+                Term(
+                  FactorNum(
+                   1
+                  ) [FactorNum]
+                  NoRepTerm(
+                  ) [NoRepTerm]
+                ) [Term]
+                NoExpressionRepetable(
+                ) [NoExpressionRepetable]
+              ) [Expression]
+            ) [DesignatorStatementAssign]
+          ) [DesignatorStmntOne]
+        ) [StatementDesign]
+      ) [RepeatStmnt]
+      PrintStatement(
+        Expression(
+          Term(
+            FactorDesignator(
+              NoDesignatorRepetable(
+                DesignatorRegular(
+                 k
+                ) [DesignatorRegular]
+              ) [NoDesignatorRepetable]
+            ) [FactorDesignator]
+            NoRepTerm(
+            ) [NoRepTerm]
+          ) [Term]
+          NoExpressionRepetable(
+          ) [NoExpressionRepetable]
+        ) [Expression]
+      ) [PrintStatement]
+    ) [RepeatStmnt]
+  ) [MethodDeclaration]
+) [Program]
+INFO  13:25:43,955 - ===================================
+INFO  13:25:43,958 - Pronadjen je program sa imenom MJProgram na liniji 1
+INFO  13:25:43,958 - Tekuci tip promenljive char na liniji 3
+INFO  13:25:43,958 - Detektovana promenljiva a na liniji 3
+INFO  13:25:43,958 - Detektovana promenljiva boolean na liniji 4
+INFO  13:25:43,958 - Tekuci tip promenljive int na liniji 5
+INFO  13:25:43,958 - Detektovana promenljiva b na liniji 5
+INFO  13:25:43,958 - Detektovana promenljiva k na liniji 5
+INFO  13:25:43,958 - Detektovana promenljiva s na liniji 5
+INFO  13:25:43,958 - Povratni tip void
+INFO  13:25:43,958 - Detektovana je metoda main uz povratni tip rs.etf.pp1.symboltable.concepts.Struct@4df828d7 na liniji 14
+INFO  13:25:43,958 - Detektovana promenljiva bb na liniji 14
+INFO  13:25:43,958 - Tekuci tip promenljive int na liniji 14
+INFO  13:25:43,958 - Detektovana promenljiva moj na liniji 14
+INFO  13:25:43,959 - Objekat dodat desigantoru k na liniji 15
+INFO  13:25:43,959 - Cc num je sada objekat sa imenom 1 na liniji 15
+INFO  13:25:43,959 - Brack cnt je stavljen na 0 na liniji 15
+INFO  13:25:43,959 - Objekat dodat desigantoru k na liniji 16
+INFO  13:25:43,959 - Kraj tekuce metode
+INFO  13:25:43,959 - Zavrsen je program  na liniji 1
+INFO  13:25:43,959 -  Print count calls = 0
+INFO  13:25:43,959 -  Deklarisanih promenljivih ima = 0
+INFO  13:25:43,959 - ===================================
+INFO  13:25:43,963 - 2 na liniji 14
+INFO  13:25:43,963 - 0 na liniji 14
+INFO  13:25:43,963 - Put za 1 na liniji 15
+INFO  13:25:43,963 - Parsiranje uspesno zavrseno!

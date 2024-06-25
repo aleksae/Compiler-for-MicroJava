@@ -1,0 +1,32 @@
+INFO  22:16:25,722 - Compiling source file: D:\ETF\rti.PP1\projekat\workspace\MJCompiler\test\program.mj
+INFO  22:16:25,845 - #2 program
+INFO  22:16:25,845 - #49 MJProgram
+INFO  22:16:25,845 - #49 int
+INFO  22:16:25,847 - #49 a
+INFO  22:16:25,848 - #14 ;
+INFO  22:16:25,851 - #19 {
+INFO  22:16:25,853 - #42 }
+INFO  22:16:25,855 - Program(
+ MJProgram
+  NoNamespace(
+  ) [NoNamespace]
+  DeclVariable(
+    VariableDeclaration(
+      TypeNoColon(
+       int
+      ) [TypeNoColon]
+     a
+      NoVarDeclRepeat(
+      ) [NoVarDeclRepeat]
+    ) [VariableDeclaration]
+    NoDecl(
+    ) [NoDecl]
+  ) [DeclVariable]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  22:16:25,855 - ===================================
+INFO  22:16:25,856 -  Print count calls = 0
+INFO  22:16:25,858 -  Namespaces declared = 0
+INFO  22:16:25,858 - Array varibale decl = 0
+INFO  22:16:25,858 - Array repeat varibale decl = 0

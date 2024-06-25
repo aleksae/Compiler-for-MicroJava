@@ -1,0 +1,226 @@
+INFO  14:28:04,305 - Compiling source file: D:\ETF\rti.PP1\projekat_treca_faza_jul\workspace\MJCompiler\test\program.mj
+INFO  14:28:04,386 - #3 program
+INFO  14:28:04,386 - #50 MJProgram
+INFO  14:28:04,386 - #23 const
+INFO  14:28:04,387 - #50 int
+INFO  14:28:04,387 - #50 nula
+INFO  14:28:04,387 - #21 =
+INFO  14:28:04,388 - #26 5
+INFO  14:28:04,388 - #15 ;
+INFO  14:28:04,390 - #23 const
+INFO  14:28:04,391 - #50 char
+INFO  14:28:04,391 - #50 aa
+INFO  14:28:04,391 - #21 =
+INFO  14:28:04,391 - #41 'a'
+INFO  14:28:04,391 - #15 ;
+INFO  14:28:04,392 - #50 char
+INFO  14:28:04,392 - #50 a
+INFO  14:28:04,393 - #15 ;
+INFO  14:28:04,394 - #50 int
+INFO  14:28:04,395 - #50 b
+INFO  14:28:04,395 - #28 [
+INFO  14:28:04,395 - #45 ]
+INFO  14:28:04,396 - #9 ,
+INFO  14:28:04,396 - #50 k
+INFO  14:28:04,396 - #9 ,
+INFO  14:28:04,397 - #50 s
+INFO  14:28:04,397 - #28 [
+INFO  14:28:04,397 - #45 ]
+INFO  14:28:04,397 - #15 ;
+INFO  14:28:04,397 - #20 {
+INFO  14:28:04,398 - #11 void
+INFO  14:28:04,399 - #50 metoda
+INFO  14:28:04,400 - #4 (
+INFO  14:28:04,401 - #50 int
+INFO  14:28:04,401 - #50 c
+INFO  14:28:04,401 - #9 ,
+INFO  14:28:04,402 - #50 char
+INFO  14:28:04,402 - #50 a
+INFO  14:28:04,402 - #5 )
+INFO  14:28:04,403 - #50 int
+INFO  14:28:04,404 - #50 g
+INFO  14:28:04,404 - #15 ;
+INFO  14:28:04,404 - #50 char
+INFO  14:28:04,404 - #50 d
+INFO  14:28:04,404 - #28 [
+INFO  14:28:04,404 - #45 ]
+INFO  14:28:04,404 - #15 ;
+INFO  14:28:04,404 - #20 {
+INFO  14:28:04,405 - #50 g
+INFO  14:28:04,406 - #21 =
+INFO  14:28:04,406 - #26 5
+INFO  14:28:04,407 - #15 ;
+INFO  14:28:04,410 - #43 }
+INFO  14:28:04,411 - #43 }
+INFO  14:28:04,419 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  DecleareConst(
+    ConstDeclaration(
+      TypeNoColon(
+       int
+      ) [TypeNoColon]
+      ConstName(
+       nula
+      ) [ConstName]
+      NumConst(
+      ) [NumConst]
+      NoRepeatConstDecl(
+      ) [NoRepeatConstDecl]
+    ) [ConstDeclaration]
+    DecleareConst(
+      ConstDeclaration(
+        TypeNoColon(
+         char
+        ) [TypeNoColon]
+        ConstName(
+         aa
+        ) [ConstName]
+        CharConst(
+        ) [CharConst]
+        NoRepeatConstDecl(
+        ) [NoRepeatConstDecl]
+      ) [ConstDeclaration]
+      DeclVariable(
+        VariableDeclaration(
+          TypeNoColon(
+           char
+          ) [TypeNoColon]
+          VariableName(
+           a
+          ) [VariableName]
+          NoVarDeclRepeat(
+          ) [NoVarDeclRepeat]
+        ) [VariableDeclaration]
+        DeclVariable(
+          VariableDeclarationArray(
+            TypeNoColon(
+             int
+            ) [TypeNoColon]
+            VariableName(
+             b
+            ) [VariableName]
+            VarDeclRepeatArr(
+              VarDeclarationRepeat(
+                NoVarDeclRepeat(
+                ) [NoVarDeclRepeat]
+                VariableName(
+                 k
+                ) [VariableName]
+              ) [VarDeclarationRepeat]
+              VariableName(
+               s
+              ) [VariableName]
+            ) [VarDeclRepeatArr]
+          ) [VariableDeclarationArray]
+          NoDecl(
+          ) [NoDecl]
+        ) [DeclVariable]
+      ) [DeclVariable]
+    ) [DecleareConst]
+  ) [DecleareConst]
+  MethodDeclaration(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodName(
+      TypeVoid(
+      ) [TypeVoid]
+     metoda
+    ) [MethodName]
+    FormParamReg(
+      TypeNoColon(
+       int
+      ) [TypeNoColon]
+      FormName(
+       c
+      ) [FormName]
+      FormParamRepeat(
+        TypeNoColon(
+         char
+        ) [TypeNoColon]
+        FormName(
+         a
+        ) [FormName]
+        NoRepeatFormParam(
+        ) [NoRepeatFormParam]
+      ) [FormParamRepeat]
+    ) [FormParamReg]
+    MethodVarDeclaration(
+      VariableDeclaration(
+        TypeNoColon(
+         int
+        ) [TypeNoColon]
+        VariableName(
+         g
+        ) [VariableName]
+        NoVarDeclRepeat(
+        ) [NoVarDeclRepeat]
+      ) [VariableDeclaration]
+      MethodVarDeclaration(
+        VariableDeclarationArray(
+          TypeNoColon(
+           char
+          ) [TypeNoColon]
+          VariableName(
+           d
+          ) [VariableName]
+          NoVarDeclRepeat(
+          ) [NoVarDeclRepeat]
+        ) [VariableDeclarationArray]
+        NoMethodVarDecl(
+        ) [NoMethodVarDecl]
+      ) [MethodVarDeclaration]
+    ) [MethodVarDeclaration]
+    RepeatStmnt(
+      NoRepeatStmnt(
+      ) [NoRepeatStmnt]
+      StatementDesign(
+        DesignatorStmntOne(
+          NoDesignatorRepetable(
+            DesignatorRegular(
+             g
+            ) [DesignatorRegular]
+          ) [NoDesignatorRepetable]
+          DesignatorStatementAssign(
+            Expression(
+              Term(
+                FactorNum(
+                ) [FactorNum]
+                NoRepTerm(
+                ) [NoRepTerm]
+              ) [Term]
+              NoExpressionRepetable(
+              ) [NoExpressionRepetable]
+            ) [Expression]
+          ) [DesignatorStatementAssign]
+        ) [DesignatorStmntOne]
+      ) [StatementDesign]
+    ) [RepeatStmnt]
+  ) [MethodDeclaration]
+) [Program]
+INFO  14:28:04,419 - ===================================
+INFO  14:28:04,423 - Pronadjen je program sa imenom MJProgram na liniji 1
+INFO  14:28:04,423 - Tekuci tip promenljive int na liniji 3
+INFO  14:28:04,423 - Detektovana konstanta nula na liniji 3
+INFO  14:28:04,423 - Tekuci tip promenljive char na liniji 4
+INFO  14:28:04,424 - Detektovana konstanta aa na liniji 4
+INFO  14:28:04,424 - Tekuci tip promenljive char na liniji 5
+INFO  14:28:04,424 - Detektovana promenljiva a na liniji 5
+INFO  14:28:04,424 - Tekuci tip promenljive int na liniji 6
+INFO  14:28:04,424 - Detektovana promenljiva b na liniji 6
+INFO  14:28:04,424 - Detektovana promenljiva k na liniji 6
+INFO  14:28:04,424 - Detektovana promenljiva s na liniji 6
+INFO  14:28:04,424 - Povratni tip void
+INFO  14:28:04,424 - Detektovana je metoda metoda na liniji 8
+INFO  14:28:04,425 - Tekuci tip promenljive int na liniji 8
+INFO  14:28:04,425 - Param metode detektovan. Zove se c na liniji 8
+INFO  14:28:04,425 - Tekuci tip promenljive char na liniji 8
+INFO  14:28:04,425 - Param metode detektovan. Zove se a na liniji 8
+INFO  14:28:04,425 - Tekuci tip promenljive int na liniji 9
+INFO  14:28:04,425 - Detektovana promenljiva g na liniji 9
+INFO  14:28:04,425 - Tekuci tip promenljive char na liniji 9
+INFO  14:28:04,425 - Detektovana promenljiva d na liniji 9
+INFO  14:28:04,425 - Objekat dodaot desigantoru g na liniji 11

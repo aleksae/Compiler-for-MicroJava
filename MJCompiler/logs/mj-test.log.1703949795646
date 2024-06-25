@@ -1,0 +1,63 @@
+INFO  16:22:56,412 - Compiling source file: D:\ETF\rti.PP1\projekat\workspace\MJCompiler\test\program.mj
+INFO  16:22:56,448 - #2 program
+INFO  16:22:56,448 - #49 MJProgram
+INFO  16:22:56,448 - #39 namespace
+INFO  16:22:56,449 - #49 MojImenskiProstor
+INFO  16:22:56,449 - #19 {
+INFO  16:22:56,449 - #22 const
+INFO  16:22:56,449 - #49 int
+INFO  16:22:56,449 - #49 v
+INFO  16:22:56,449 - #20 =
+INFO  16:22:56,449 - #25 1
+INFO  16:22:56,449 - #8 ,
+INFO  16:22:56,452 - #49 c
+INFO  16:22:56,452 - #20 =
+INFO  16:22:56,453 - #25 3
+INFO  16:22:56,453 - #14 ;
+INFO  16:22:56,455 - #22 const
+INFO  16:22:56,455 - #49 int
+INFO  16:22:56,455 - #49 d
+INFO  16:22:56,456 - #20 =
+INFO  16:22:56,456 - #25 4
+INFO  16:22:56,456 - #14 ;
+INFO  16:22:56,457 - #42 }
+INFO  16:22:56,463 - Program(
+ MJProgram
+  HasNamespace(
+   MojImenskiProstor
+    DecleareConst(
+      ConstDeclaration(
+        TypeNoColon(
+         int
+        ) [TypeNoColon]
+       v
+        NumConst(
+        ) [NumConst]
+        RepeatingConstDecl(
+         c
+          NumConst(
+          ) [NumConst]
+          NoRepeatConstDecl(
+          ) [NoRepeatConstDecl]
+        ) [RepeatingConstDecl]
+      ) [ConstDeclaration]
+      DecleareConst(
+        ConstDeclaration(
+          TypeNoColon(
+           int
+          ) [TypeNoColon]
+         d
+          NumConst(
+          ) [NumConst]
+          NoRepeatConstDecl(
+          ) [NoRepeatConstDecl]
+        ) [ConstDeclaration]
+        NoDecl(
+        ) [NoDecl]
+      ) [DecleareConst]
+    ) [DecleareConst]
+  ) [HasNamespace]
+) [Program]
+INFO  16:22:56,464 - ===================================
+INFO  16:22:56,465 -  Print count calls = 0
+INFO  16:22:56,465 -  Namespaces declared = 1

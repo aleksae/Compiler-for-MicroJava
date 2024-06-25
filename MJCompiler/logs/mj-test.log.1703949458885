@@ -1,0 +1,42 @@
+INFO  16:17:11,413 - Compiling source file: D:\ETF\rti.PP1\projekat\workspace\MJCompiler\test\program.mj
+INFO  16:17:11,426 - #2 program
+INFO  16:17:11,426 - #49 MJProgram
+INFO  16:17:11,427 - #39 namespace
+INFO  16:17:11,427 - #49 MojImenskiProstor
+INFO  16:17:11,427 - #19 {
+INFO  16:17:11,427 - #22 const
+INFO  16:17:11,427 - #49 int
+INFO  16:17:11,427 - #49 v
+INFO  16:17:11,427 - #20 =
+INFO  16:17:11,428 - #25 1
+INFO  16:17:11,428 - #8 ,
+INFO  16:17:11,429 - #49 c
+INFO  16:17:11,430 - #20 =
+INFO  16:17:11,430 - #25 3
+INFO  16:17:11,430 - #42 }
+INFO  16:17:11,432 - Program(
+ MJProgram
+  HasNamespace(
+   MojImenskiProstor
+    DecleareConst(
+      ConstDeclaration(
+        TypeNoColon(
+         int
+        ) [TypeNoColon]
+       v
+        NumConst(
+        ) [NumConst]
+        RepeatingConstDecl(
+         c
+          NumConst(
+          ) [NumConst]
+          NoRepeatConstDecl(
+          ) [NoRepeatConstDecl]
+        ) [RepeatingConstDecl]
+      ) [ConstDeclaration]
+    ) [DecleareConst]
+  ) [HasNamespace]
+) [Program]
+INFO  16:17:11,433 - ===================================
+INFO  16:17:11,435 -  Print count calls = 0
+INFO  16:17:11,435 -  Namespaces declared = 1

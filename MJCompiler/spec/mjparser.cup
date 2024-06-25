@@ -1,0 +1,346 @@
+
+
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+parser code {:
+
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti. U pitanju je simbol "+cur_token.value.toString(), cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+
+
+:}
+
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal IN;
+
+terminal PROG, LPAREN, RPAREN, EQUAL, RETURN, PLUS, COMMA, PRINT, VOID, COLON, FOR, STATIC, SEMICOLON, EXTENDS, NEW, PERCENT, DOT, LCURLY, ASSIGN, MINUS, CONST, AND, LESS, LSQUARE, LAMBDA, TIMES, BREAK, EQUALS, READ, INC, GEQ, THIS, LEQ, GREATER, SLASH, NAMESPACE, NOTEQUAL, RCURLY, CLASS, RSQUARE, CONTINUE, OR, DEC;
+terminal Integer NUMBER;
+terminal String IDENT;
+terminal Integer NUMCONST;
+terminal String CHARCONST;
+terminal String BOOLCONST;
+terminal IF, ELSE, RANGE;
+
+
+nonterminal Namespace, DeclNamespace, ConstDecl, RepeatConstDecl, VarDeclRepeat, MethodDecl;
+nonterminal FormParams, FormParamsRepeat, MethodVarDecl, RepeatStatement, DesignatorRepeatable;
+nonterminal Addop, Mulop, Label, Relop, DesignatorFinal;
+nonterminal DesignatorComma, DesignatorSuffix, DesignatorStatementPart, DesignatorStatementPartTwo, DesignatorIdent;
+
+nonterminal DesignatorJul, ForDect;
+
+nonterminal OptionalDesignatorStatementFor, DesignatorStatementList, StatementRepeat;
+
+
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ActParse, RepetableActParse, ProgName, Program, MethodName, VarDecl, VarName, FormName, ConstName, DesignatorInner, Designator, Factor, FactorNew, Statement, DesignatorStatement, DesignatorStatementPartOne, Term, RepetableTerm, Expr, ExprRepetable;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, TypeOrVoid, ConstElem, Condition, CondFact, CondFactRepeater, CondTermRepeater, CondTerm, OptionalCondFactFor;
+
+
+
+
+precedence left ELSE;
+
+
+
+
+
+
+Program ::= (Program) PROG ProgName:p Namespace DeclNamespace LCURLY MethodDecl RCURLY
+                ;
+
+ProgName ::= (ProgName) IDENT:progName;
+
+
+Namespace ::= (HasNamespace) NAMESPACE IDENT LCURLY DeclNamespace LCURLY MethodDecl RCURLY RCURLY Namespace
+				|
+				(NoNamespace) /* epsilon */
+				;
+
+MethodDecl ::=  (MethodDeclaration) MethodDecl MethodName:methodName LPAREN FormParams RPAREN MethodVarDecl LCURLY RepeatStatement RCURLY
+                |
+                (NoMethodDecl) /*epsilon*/
+                ;
+
+MethodName ::= (MethodName) TypeOrVoid:retType IDENT:name;
+
+FormParams ::= (FormParamArray) Type:t FormName:name LSQUARE RSQUARE FormParamsRepeat
+            | (FormParamReg) Type:t FormName:name FormParamsRepeat 
+            | (NoFormParams)
+            ;
+
+FormName ::= (FormName) IDENT:name
+    ;
+
+FormParamsRepeat ::= (FormParamRepeatArr) COMMA Type:t FormName:name LSQUARE RSQUARE FormParamsRepeat
+            | (FormParamRepeat) COMMA Type:t FormName:name FormParamsRepeat
+            | (NoRepeatFormParam)
+            ;
+
+TypeOrVoid ::= (TypeHasType) IDENT:typeName
+                | (TypeVoid) VOID:typeName
+                ;
+
+DeclNamespace ::= (DecleareConst) ConstDecl DeclNamespace
+                |
+                (DeclVariable) VarDecl DeclNamespace
+                |
+                (NoDecl) /*epsilon*/
+                ;
+
+ConstDecl ::= (ConstDeclaration) CONST Type:t ConstName:cn ASSIGN ConstElem:c RepeatConstDecl SEMICOLON
+                ;
+                
+ConstName ::= (ConstName) IDENT:name
+            ;
+
+
+RepeatConstDecl ::= (RepeatingConstDecl) COMMA ConstName:cn ASSIGN ConstElem:c RepeatConstDecl
+                | (NoRepeatConstDecl)
+                ;
+
+VarDecl ::= (VariableDeclarationArray) Type:t VarName:name LSQUARE RSQUARE VarDeclRepeat SEMICOLON
+            |  (ErrorStmtVarDeclComma) error COMMA:c
+		    {: parser.report_error("Izvrsen oporavak do , u liniji " + cleft, null);  :}         
+            |  (ErrorStmtVarDeclSemicolon) error SEMICOLON:l
+		    {: parser.report_error("Izvrsen oporavak do ; u liniji " + lleft, null);  :}         
+            | (VariableDeclaration) Type:t VarName:name VarDeclRepeat SEMICOLON
+            ;
+
+VarDeclRepeat ::= (VarDeclRepeatArr) VarDeclRepeat COMMA VarName LSQUARE RSQUARE 
+            | (VarDeclarationRepeat)  VarDeclRepeat COMMA VarName
+            | (NoVarDeclRepeat)
+            ;
+
+
+VarName ::=  (VariableName) IDENT:name
+    ;
+
+
+MethodVarDecl ::= (MethodVarDeclaration) VarDecl MethodVarDecl
+            | (NoMethodVarDecl)
+            ;
+            
+ConstElem ::= (BoolConst) BOOLCONST
+            |  (CharConst) CHARCONST
+            | (NumConst) NUMCONST
+            ;                       
+
+Type ::= (TypeWithColon) IDENT COLON COLON IDENT:typeName
+        | 
+        (TypeNoColon) IDENT:typeName
+        ;
+
+
+
+
+Expr ::= (ExpressionWithMinus) MINUS Term:t ExprRepetable:eR
+            | (Expression) Term:t ExprRepetable:eR
+            ;
+
+ExprRepetable ::= (ExpressionRepetable) Addop Term:t ExprRepetable:eR
+                | (NoExpressionRepetable)
+                ;
+
+
+Addop ::= (AddopPlus) PLUS
+        | (AddopMinus) MINUS
+        ;
+
+Mulop ::= (MulopPerc) PERCENT
+        | (MulopMul) TIMES
+        | (MulopSlash)SLASH
+        ;
+
+Term ::= (Term) Factor:f RepetableTerm
+    ;
+
+RepetableTerm ::= (RepetableTerminal) Mulop Factor:f RepetableTerm
+                | (NoRepTerm)
+                ;
+
+Factor ::= (FactorDesignator) Designator:dDesF
+        | (FactorDesignatorEmptyBrace) Designator:dDesE LPAREN RPAREN
+        | (FactorDesignatorBrace) Designator:dDesB LPAREN ActParse RPAREN
+        | (FactorNum) NUMCONST:valN
+        | (FactorChar) CHARCONST:valC
+        | (FactorBool) BOOLCONST:valB
+        | (FactorNewFac) NEW Type:t FactorNew:f
+        | (LRParFactor) LPAREN Expr:e RPAREN
+        | (FactorRange) RANGE LPAREN Expr:e RPAREN
+        ;
+
+FactorNew ::= (FactorArrHasE) LSQUARE Expr:e RSQUARE
+            | LPAREN ActParse RPAREN
+            | (FactorArrNoE)LPAREN RPAREN
+            ;
+
+ActParse ::= (ActParse) Expr:e RepetableActParse:rE
+            ;
+
+RepetableActParse ::= (RepetableActParseFull) COMMA Expr:eR RepetableActParse
+                | (RepetableActParseEmpty)
+                ;
+
+
+
+DesignatorInner ::=  (DesignatorReach) IDENT COLON COLON IDENT 
+                | (DesignatorRegular) IDENT:name
+                ;
+
+Designator ::= (DesignatorIdentDot) Designator:desD DOT IDENT
+                    | (DesignatorIdentBrackets)Designator:desD LSQUARE Expr RSQUARE
+                    | (NoDesignatorRepetable) DesignatorInner:desI
+                    ;
+
+
+DesignatorStatement ::= (DesignatorStmntOne) Designator:dD DesignatorStatementPartOne:dPO
+                    | (DesignatorStmntTwo) DesignatorStatementPartTwo:dPT
+                    | (DesJul) DesignatorJul
+                    ;
+
+DesignatorStatementPartOne ::= (DesignatorStatementAssign) ASSIGN Expr:e
+                            |  (DesignatorStatementEmptyParen) LPAREN RPAREN
+                            |  (DesignatorStatementParen) LPAREN ActParse:aPd RPAREN
+                            |  (DesignatorStatementInc) INC
+                            |  (DesignatorStatementDec) DEC
+                            ;
+
+DesignatorStatementPartTwo ::= (DesignatorStatementDepack) LSQUARE DesignatorComma TIMES Designator:dDesL RSQUARE ASSIGN Designator:dDesR
+                            ;
+
+
+
+
+
+
+
+DesignatorJul::= (DesJulNoIf) Designator ASSIGN LSQUARE FOR Expr:e IN Designator:d RSQUARE
+|   (DesJulWithIf) Designator ASSIGN LSQUARE FOR Expr:e IN Designator:d IF Condition:c RSQUARE
+;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DesignatorComma ::= (DesignatorCommaIncl) DesignatorComma Designator COMMA
+                    | (DesignatorCommaOnly) COMMA
+                    | (NoDesignatorComma)
+                    ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Statement ::= (StatementDesign) DesignatorStatement SEMICOLON
+                | (StatementIfNoElse) IF LPAREN Condition RPAREN Statement
+                | (StatementIfElse) IF LPAREN Condition RPAREN Statement ELSE Statement
+                | (BreakStatement) BREAK SEMICOLON
+                | (ContStatement) CONTINUE SEMICOLON
+                | (ReturnEmptyStatement) RETURN SEMICOLON
+                | (ReturnStatement) RETURN Expr:e SEMICOLON
+                | (ReadStatement) READ LPAREN Designator:dRet RPAREN SEMICOLON
+                | (PrintStatement) PRINT LPAREN Expr:e RPAREN SEMICOLON
+                | (PrintWithNumConstStatement) PRINT LPAREN Expr:e COMMA NUMCONST RPAREN SEMICOLON
+                | (EmptyStatement) LCURLY RCURLY
+                | (StatementCurlyStatement) LCURLY StatementRepeat RCURLY
+                | (StatementFor) ForDect LPAREN OptionalDesignatorStatementFor SEMICOLON OptionalCondFactFor SEMICOLON OptionalDesignatorStatementFor RPAREN Statement
+                | (ErrorStmtStatementSemicolon) error SEMICOLON:l
+		        {: parser.report_error("Izvrsen oporavak do ; u liniji " + lleft, null);  :}  
+                ;
+
+ForDect::= (ForDect) FOR;
+
+StatementRepeat ::= StatementRepeat Statement
+                | Statement
+                ;
+OptionalDesignatorStatementFor ::= DesignatorStatementList
+                                | 
+                               ;
+
+DesignatorStatementList ::= DesignatorStatementList COMMA DesignatorStatement
+                      | DesignatorStatement
+                      ;
+
+OptionalCondFactFor ::= (OptCondFactFor) CondFact 
+                    | 
+                    ;                     
+RepeatStatement ::= (RepeatStmnt) RepeatStatement Statement
+                | (NoRepeatStmnt)
+                ;
+
+Label ::= IDENT;
+Relop ::= (RelopEq) EQUALS | (RelopNotEq) NOTEQUAL | GREATER | GEQ | LESS | LEQ ;
+
+Condition ::= (Condition) CondTerm:cd CondTermRepeater:cdr
+            ;
+
+CondTermRepeater ::= (CondTermRepFull) OR CondTerm:cdF CondTermRepeater:cdFR
+                | (NoCondTermRep)
+                ;
+
+CondTerm ::= (CondTerm) CondFact:cf CondFactRepeater:cfr
+            ;
+
+CondFactRepeater ::= (CondFactRepFull) AND CondFact:cfRF CondFactRepeater:cfrR
+                | (NoCondFactRep)
+                ;
+
+CondFact ::= (CondFactSingle) Expr:ec
+            |(CondFactDual) Expr:e1 Relop Expr:e2
+            ;

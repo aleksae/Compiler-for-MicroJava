@@ -1,0 +1,364 @@
+INFO  17:36:47,109 - Compiling source file: D:\ETF\rti.PP1\projekat_treca_faza_jul\workspace\MJCompiler\test\program.mj
+INFO  17:36:47,172 - #3 program
+INFO  17:36:47,173 - #48 MJProgram
+INFO  17:36:47,173 - #24 const
+INFO  17:36:47,174 - #48 int
+INFO  17:36:47,174 - #48 nula
+INFO  17:36:47,174 - #22 =
+INFO  17:36:47,176 - #49 5
+INFO  17:36:47,176 - #15 ;
+INFO  17:36:47,177 - #24 const
+INFO  17:36:47,177 - #48 char
+INFO  17:36:47,177 - #48 aa
+INFO  17:36:47,177 - #22 =
+INFO  17:36:47,177 - #50 'a'
+INFO  17:36:47,178 - #15 ;
+INFO  17:36:47,178 - #48 char
+INFO  17:36:47,178 - #48 a
+INFO  17:36:47,178 - #15 ;
+INFO  17:36:47,179 - #48 int
+INFO  17:36:47,179 - #48 b
+INFO  17:36:47,180 - #27 [
+INFO  17:36:47,180 - #43 ]
+INFO  17:36:47,181 - #9 ,
+INFO  17:36:47,181 - #48 k
+INFO  17:36:47,181 - #9 ,
+INFO  17:36:47,181 - #48 s
+INFO  17:36:47,181 - #27 [
+INFO  17:36:47,181 - #43 ]
+INFO  17:36:47,181 - #15 ;
+INFO  17:36:47,182 - #21 {
+INFO  17:36:47,183 - #11 void
+INFO  17:36:47,183 - #48 metoda
+INFO  17:36:47,184 - #4 (
+INFO  17:36:47,185 - #48 int
+INFO  17:36:47,185 - #48 c
+INFO  17:36:47,185 - #9 ,
+INFO  17:36:47,186 - #48 char
+INFO  17:36:47,186 - #48 a
+INFO  17:36:47,186 - #5 )
+INFO  17:36:47,187 - #48 char
+INFO  17:36:47,187 - #48 g
+INFO  17:36:47,187 - #27 [
+INFO  17:36:47,187 - #43 ]
+INFO  17:36:47,187 - #15 ;
+INFO  17:36:47,187 - #48 char
+INFO  17:36:47,187 - #48 d
+INFO  17:36:47,187 - #27 [
+INFO  17:36:47,187 - #43 ]
+INFO  17:36:47,187 - #15 ;
+INFO  17:36:47,187 - #21 {
+INFO  17:36:47,188 - #48 g
+INFO  17:36:47,188 - #27 [
+INFO  17:36:47,189 - #49 0
+INFO  17:36:47,189 - #43 ]
+INFO  17:36:47,190 - #22 =
+INFO  17:36:47,190 - #48 d
+INFO  17:36:47,190 - #27 [
+INFO  17:36:47,190 - #49 1
+INFO  17:36:47,191 - #43 ]
+INFO  17:36:47,191 - #15 ;
+INFO  17:36:47,191 - #41 }
+INFO  17:36:47,191 - #11 void
+INFO  17:36:47,191 - #48 main
+INFO  17:36:47,192 - #4 (
+INFO  17:36:47,192 - #5 )
+INFO  17:36:47,193 - #21 {
+INFO  17:36:47,193 - #48 metoda
+INFO  17:36:47,193 - #4 (
+INFO  17:36:47,193 - #48 nula
+INFO  17:36:47,193 - #9 ,
+INFO  17:36:47,193 - #48 a
+INFO  17:36:47,194 - #5 )
+INFO  17:36:47,195 - #15 ;
+INFO  17:36:47,195 - #7 return
+INFO  17:36:47,195 - #15 ;
+INFO  17:36:47,195 - #41 }
+INFO  17:36:47,196 - #41 }
+INFO  17:36:47,202 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  DecleareConst(
+    ConstDeclaration(
+      TypeNoColon(
+       int
+      ) [TypeNoColon]
+      ConstName(
+       nula
+      ) [ConstName]
+      NumConst(
+       5
+      ) [NumConst]
+      NoRepeatConstDecl(
+      ) [NoRepeatConstDecl]
+    ) [ConstDeclaration]
+    DecleareConst(
+      ConstDeclaration(
+        TypeNoColon(
+         char
+        ) [TypeNoColon]
+        ConstName(
+         aa
+        ) [ConstName]
+        CharConst(
+         'a'
+        ) [CharConst]
+        NoRepeatConstDecl(
+        ) [NoRepeatConstDecl]
+      ) [ConstDeclaration]
+      DeclVariable(
+        VariableDeclaration(
+          TypeNoColon(
+           char
+          ) [TypeNoColon]
+          VariableName(
+           a
+          ) [VariableName]
+          NoVarDeclRepeat(
+          ) [NoVarDeclRepeat]
+        ) [VariableDeclaration]
+        DeclVariable(
+          VariableDeclarationArray(
+            TypeNoColon(
+             int
+            ) [TypeNoColon]
+            VariableName(
+             b
+            ) [VariableName]
+            VarDeclRepeatArr(
+              VarDeclarationRepeat(
+                NoVarDeclRepeat(
+                ) [NoVarDeclRepeat]
+                VariableName(
+                 k
+                ) [VariableName]
+              ) [VarDeclarationRepeat]
+              VariableName(
+               s
+              ) [VariableName]
+            ) [VarDeclRepeatArr]
+          ) [VariableDeclarationArray]
+          NoDecl(
+          ) [NoDecl]
+        ) [DeclVariable]
+      ) [DeclVariable]
+    ) [DecleareConst]
+  ) [DecleareConst]
+  MethodDeclaration(
+    MethodDeclaration(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodName(
+        TypeVoid(
+        ) [TypeVoid]
+       metoda
+      ) [MethodName]
+      FormParamReg(
+        TypeNoColon(
+         int
+        ) [TypeNoColon]
+        FormName(
+         c
+        ) [FormName]
+        FormParamRepeat(
+          TypeNoColon(
+           char
+          ) [TypeNoColon]
+          FormName(
+           a
+          ) [FormName]
+          NoRepeatFormParam(
+          ) [NoRepeatFormParam]
+        ) [FormParamRepeat]
+      ) [FormParamReg]
+      MethodVarDeclaration(
+        VariableDeclarationArray(
+          TypeNoColon(
+           char
+          ) [TypeNoColon]
+          VariableName(
+           g
+          ) [VariableName]
+          NoVarDeclRepeat(
+          ) [NoVarDeclRepeat]
+        ) [VariableDeclarationArray]
+        MethodVarDeclaration(
+          VariableDeclarationArray(
+            TypeNoColon(
+             char
+            ) [TypeNoColon]
+            VariableName(
+             d
+            ) [VariableName]
+            NoVarDeclRepeat(
+            ) [NoVarDeclRepeat]
+          ) [VariableDeclarationArray]
+          NoMethodVarDecl(
+          ) [NoMethodVarDecl]
+        ) [MethodVarDeclaration]
+      ) [MethodVarDeclaration]
+      RepeatStmnt(
+        NoRepeatStmnt(
+        ) [NoRepeatStmnt]
+        StatementDesign(
+          DesignatorStmntOne(
+            DesignatorIdentBrackets(
+              NoDesignatorRepetable(
+                DesignatorRegular(
+                 g
+                ) [DesignatorRegular]
+              ) [NoDesignatorRepetable]
+              Expression(
+                Term(
+                  FactorNum(
+                   0
+                  ) [FactorNum]
+                  NoRepTerm(
+                  ) [NoRepTerm]
+                ) [Term]
+                NoExpressionRepetable(
+                ) [NoExpressionRepetable]
+              ) [Expression]
+            ) [DesignatorIdentBrackets]
+            DesignatorStatementAssign(
+              Expression(
+                Term(
+                  FactorDesignator(
+                    DesignatorIdentBrackets(
+                      NoDesignatorRepetable(
+                        DesignatorRegular(
+                         d
+                        ) [DesignatorRegular]
+                      ) [NoDesignatorRepetable]
+                      Expression(
+                        Term(
+                          FactorNum(
+                           1
+                          ) [FactorNum]
+                          NoRepTerm(
+                          ) [NoRepTerm]
+                        ) [Term]
+                        NoExpressionRepetable(
+                        ) [NoExpressionRepetable]
+                      ) [Expression]
+                    ) [DesignatorIdentBrackets]
+                  ) [FactorDesignator]
+                  NoRepTerm(
+                  ) [NoRepTerm]
+                ) [Term]
+                NoExpressionRepetable(
+                ) [NoExpressionRepetable]
+              ) [Expression]
+            ) [DesignatorStatementAssign]
+          ) [DesignatorStmntOne]
+        ) [StatementDesign]
+      ) [RepeatStmnt]
+    ) [MethodDeclaration]
+    MethodName(
+      TypeVoid(
+      ) [TypeVoid]
+     main
+    ) [MethodName]
+    NoFormParams(
+    ) [NoFormParams]
+    NoMethodVarDecl(
+    ) [NoMethodVarDecl]
+    RepeatStmnt(
+      RepeatStmnt(
+        NoRepeatStmnt(
+        ) [NoRepeatStmnt]
+        StatementDesign(
+          DesignatorStmntOne(
+            NoDesignatorRepetable(
+              DesignatorRegular(
+               metoda
+              ) [DesignatorRegular]
+            ) [NoDesignatorRepetable]
+            DesignatorStatementParen(
+              ActParse(
+                Expression(
+                  Term(
+                    FactorDesignator(
+                      NoDesignatorRepetable(
+                        DesignatorRegular(
+                         nula
+                        ) [DesignatorRegular]
+                      ) [NoDesignatorRepetable]
+                    ) [FactorDesignator]
+                    NoRepTerm(
+                    ) [NoRepTerm]
+                  ) [Term]
+                  NoExpressionRepetable(
+                  ) [NoExpressionRepetable]
+                ) [Expression]
+                RepetableActParseFull(
+                  Expression(
+                    Term(
+                      FactorDesignator(
+                        NoDesignatorRepetable(
+                          DesignatorRegular(
+                           a
+                          ) [DesignatorRegular]
+                        ) [NoDesignatorRepetable]
+                      ) [FactorDesignator]
+                      NoRepTerm(
+                      ) [NoRepTerm]
+                    ) [Term]
+                    NoExpressionRepetable(
+                    ) [NoExpressionRepetable]
+                  ) [Expression]
+                  RepetableActParseEmpty(
+                  ) [RepetableActParseEmpty]
+                ) [RepetableActParseFull]
+              ) [ActParse]
+            ) [DesignatorStatementParen]
+          ) [DesignatorStmntOne]
+        ) [StatementDesign]
+      ) [RepeatStmnt]
+      ReturnEmptyStatement(
+      ) [ReturnEmptyStatement]
+    ) [RepeatStmnt]
+  ) [MethodDeclaration]
+) [Program]
+INFO  17:36:47,203 - ===================================
+INFO  17:36:47,206 - Pronadjen je program sa imenom MJProgram na liniji 1
+INFO  17:36:47,206 - Tekuci tip promenljive int na liniji 3
+INFO  17:36:47,206 - Detektovana konstanta nula na liniji 3
+INFO  17:36:47,206 - Tekuci tip promenljive char na liniji 4
+INFO  17:36:47,206 - Detektovana konstanta aa na liniji 4
+INFO  17:36:47,206 - Tekuci tip promenljive char na liniji 5
+INFO  17:36:47,206 - Detektovana promenljiva a na liniji 5
+INFO  17:36:47,207 - Tekuci tip promenljive int na liniji 6
+INFO  17:36:47,207 - Detektovana promenljiva b na liniji 6
+INFO  17:36:47,207 - Detektovana promenljiva k na liniji 6
+INFO  17:36:47,207 - Detektovana promenljiva s na liniji 6
+INFO  17:36:47,207 - Povratni tip void
+INFO  17:36:47,207 - Detektovana je metoda metoda na liniji 8
+INFO  17:36:47,207 - Tekuci tip promenljive int na liniji 8
+INFO  17:36:47,207 - Param metode detektovan. Zove se c na liniji 8
+INFO  17:36:47,207 - Tekuci tip promenljive char na liniji 8
+INFO  17:36:47,207 - Param metode detektovan. Zove se a na liniji 8
+INFO  17:36:47,207 - Tekuci tip promenljive char na liniji 9
+INFO  17:36:47,207 - Detektovana promenljiva g na liniji 9
+INFO  17:36:47,207 - Tekuci tip promenljive char na liniji 9
+INFO  17:36:47,207 - Detektovana promenljiva d na liniji 9
+INFO  17:36:47,207 - Objekat dodat desigantoru g na liniji 11
+INFO  17:36:47,208 - Cc num je sada objekat sa imenom 0 na liniji 11
+INFO  17:36:47,208 - Objekat dodat desigantoru d na liniji 11
+INFO  17:36:47,208 - Cc num je sada objekat sa imenom 1 na liniji 11
+INFO  17:36:47,208 - Kraj tekuce metode
+INFO  17:36:47,208 - Povratni tip void
+INFO  17:36:47,208 - Detektovana je metoda main na liniji 13
+INFO  17:36:47,208 - Objekat dodat desigantoru metoda na liniji 14
+INFO  17:36:47,208 - Objekat dodat desigantoru nula na liniji 14
+INFO  17:36:47,208 - Objekat dodat desigantoru a na liniji 14
+ERROR 17:36:47,218 - Desstmntne neko djubre na liniji 14
+INFO  17:36:47,218 - Kraj tekuce metode
+INFO  17:36:47,218 - Zavrsen je program  na liniji 1
+INFO  17:36:47,218 -  Print count calls = 0
+INFO  17:36:47,218 -  Deklarisanih promenljivih ima = 0
+INFO  17:36:47,218 - ===================================
+ERROR 17:36:47,219 - Parsiranje NIJE uspesno zavrseno!

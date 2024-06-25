@@ -1,0 +1,143 @@
+INFO  17:42:06,084 - Compiling source file: D:\ETF\rti.PP1\projekat\workspace\MJCompiler\test\program.mj
+INFO  17:42:06,106 - #2 program
+INFO  17:42:06,106 - #49 MJProgram
+INFO  17:42:06,106 - #39 namespace
+INFO  17:42:06,106 - #49 MojImenskiProstor
+INFO  17:42:06,106 - #19 {
+INFO  17:42:06,106 - #22 const
+INFO  17:42:06,106 - #49 int
+INFO  17:42:06,106 - #49 v
+INFO  17:42:06,107 - #20 =
+INFO  17:42:06,107 - #25 1
+INFO  17:42:06,107 - #8 ,
+INFO  17:42:06,108 - #49 c
+INFO  17:42:06,108 - #20 =
+INFO  17:42:06,108 - #25 3
+INFO  17:42:06,108 - #14 ;
+INFO  17:42:06,109 - #22 const
+INFO  17:42:06,110 - #49 bool
+INFO  17:42:06,110 - #49 d
+INFO  17:42:06,110 - #20 =
+INFO  17:42:06,110 - #23 true
+INFO  17:42:06,110 - #14 ;
+INFO  17:42:06,112 - #49 int
+INFO  17:42:06,112 - #49 arr
+INFO  17:42:06,112 - #27 [
+INFO  17:42:06,112 - #44 ]
+INFO  17:42:06,112 - #8 ,
+INFO  17:42:06,112 - #49 smth
+INFO  17:42:06,112 - #27 [
+INFO  17:42:06,112 - #44 ]
+INFO  17:42:06,112 - #14 ;
+INFO  17:42:06,113 - #49 bool
+INFO  17:42:06,114 - #49 arr2
+INFO  17:42:06,114 - #27 [
+INFO  17:42:06,114 - #44 ]
+INFO  17:42:06,114 - #14 ;
+INFO  17:42:06,114 - #19 {
+INFO  17:42:06,115 - #10 void
+INFO  17:42:06,115 - #49 metoda
+INFO  17:42:06,117 - #3 (
+INFO  17:42:06,117 - #4 )
+INFO  17:42:06,118 - #49 int
+INFO  17:42:06,118 - #49 a
+INFO  17:42:06,118 - #14 ;
+INFO  17:42:06,118 - #49 bool
+INFO  17:42:06,118 - #49 d
+INFO  17:42:06,118 - #14 ;
+INFO  17:42:06,118 - #42 }
+INFO  17:42:06,119 - #42 }
+INFO  17:42:06,120 - Program(
+ MJProgram
+  HasNamespace(
+   MojImenskiProstor
+    DecleareConst(
+      ConstDeclaration(
+        TypeNoColon(
+         int
+        ) [TypeNoColon]
+       v
+        NumConst(
+        ) [NumConst]
+        RepeatingConstDecl(
+         c
+          NumConst(
+          ) [NumConst]
+          NoRepeatConstDecl(
+          ) [NoRepeatConstDecl]
+        ) [RepeatingConstDecl]
+      ) [ConstDeclaration]
+      DecleareConst(
+        ConstDeclaration(
+          TypeNoColon(
+           bool
+          ) [TypeNoColon]
+         d
+          BoolConst(
+          ) [BoolConst]
+          NoRepeatConstDecl(
+          ) [NoRepeatConstDecl]
+        ) [ConstDeclaration]
+        DeclVariable(
+          VariableDeclarationArray(
+            TypeNoColon(
+             int
+            ) [TypeNoColon]
+           arr
+            VarDeclRepeatArr(
+             smth
+              NoVarDeclRepeat(
+              ) [NoVarDeclRepeat]
+            ) [VarDeclRepeatArr]
+          ) [VariableDeclarationArray]
+          DeclVariable(
+            VariableDeclarationArray(
+              TypeNoColon(
+               bool
+              ) [TypeNoColon]
+             arr2
+              NoVarDeclRepeat(
+              ) [NoVarDeclRepeat]
+            ) [VariableDeclarationArray]
+            NoDecl(
+            ) [NoDecl]
+          ) [DeclVariable]
+        ) [DeclVariable]
+      ) [DecleareConst]
+    ) [DecleareConst]
+    MethodDeclaration(
+      TypeOrVoidDerived2(
+      ) [TypeOrVoidDerived2]
+     metoda
+      NoFormParams(
+      ) [NoFormParams]
+      MethodVarDeclaration(
+        VariableDeclaration(
+          TypeNoColon(
+           int
+          ) [TypeNoColon]
+         a
+          NoVarDeclRepeat(
+          ) [NoVarDeclRepeat]
+        ) [VariableDeclaration]
+        MethodVarDeclaration(
+          VariableDeclaration(
+            TypeNoColon(
+             bool
+            ) [TypeNoColon]
+           d
+            NoVarDeclRepeat(
+            ) [NoVarDeclRepeat]
+          ) [VariableDeclaration]
+          NoMethodVarDecl(
+          ) [NoMethodVarDecl]
+        ) [MethodVarDeclaration]
+      ) [MethodVarDeclaration]
+    ) [MethodDeclaration]
+  ) [HasNamespace]
+) [Program]
+INFO  17:42:06,121 - ===================================
+INFO  17:42:06,123 -  Print count calls = 0
+INFO  17:42:06,123 -  Namespaces declared = 1
+INFO  17:42:06,123 - Array varibale decl = 2
+INFO  17:42:06,123 - Array repeat varibale decl = 1
