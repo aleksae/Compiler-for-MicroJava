@@ -38,6 +38,7 @@ import rs.ac.bg.etf.pp1.ast.MulopPerc;
 import rs.ac.bg.etf.pp1.ast.MulopSlash;
 import rs.ac.bg.etf.pp1.ast.NumConst;
 import rs.ac.bg.etf.pp1.ast.PrintStatement;
+import rs.ac.bg.etf.pp1.ast.PrintWithNumConstStatement;
 import rs.ac.bg.etf.pp1.ast.ReadStatement;
 import rs.ac.bg.etf.pp1.ast.RepetableTerminal;
 import rs.ac.bg.etf.pp1.ast.SyntaxNode;
@@ -56,30 +57,7 @@ public class CodeGenerator extends VisitorAdaptor {
 
 	Obj cnt;
 	CodeGenerator(){
-		Tab.chrObj.setAdr(Code.pc);
-	    Code.put(Code.enter);
-	    Code.put(Code.load);
-	    Code.put(Code.load);
-	    Code.put(Code.load_n);
-	    Code.put(Code.exit);
-	    Code.put(Code.return_);
-
-	    Tab.ordObj.setAdr(Code.pc);
-	    Code.put(Code.enter);
-	    Code.put(Code.load);
-	    Code.put(Code.load);
-	    Code.put(Code.load_n);
-	    Code.put(Code.exit);
-	    Code.put(Code.return_);
-
-	    Tab.lenObj.setAdr(Code.pc);
-	    Code.put(Code.enter);
-	    Code.put(1);
-	    Code.put(1);
-	    Code.put(Code.load_n);
-	    Code.put(Code.arraylength);
-	    Code.put(Code.exit);
-	    Code.put(Code.return_);
+		
 	    cnt = Tab.find("mojPomocniBrojacAleksa");
 	    
 	}
@@ -129,10 +107,13 @@ public class CodeGenerator extends VisitorAdaptor {
 				toPatch = Code.pc-2;
 				if(isIntArr) Code.put(Code.aload); else Code.put(Code.baload);
 				if(isIntArr) {
+					
 					Code.put(Code.const_5);
+					//Code.loadConst(0);
 					Code.put(Code.print);
 				}else {
 					Code.put(Code.const_1);
+					//Code.loadConst(0);
 					Code.put(Code.bprint);
 				}
 				Code.load(cnt);
@@ -151,10 +132,12 @@ public class CodeGenerator extends VisitorAdaptor {
 				if(ps.getExpr().obj.getType().getElemType().getKind()==1) {
 					//Code.put(Code.aload);
 					Code.loadConst(5);
+					//Code.loadConst(0);
 					Code.put(Code.print);
 				}else {
 					//Code.put(Code.baload);
 					Code.loadConst(1);
+					//Code.loadConst(0);
 					Code.put(Code.bprint);
 				}
 				
@@ -167,17 +150,21 @@ public class CodeGenerator extends VisitorAdaptor {
 			report_info("aaeee4",ps);
 			if(ps.getExpr().obj.getType().equals(Tab.charType)) {
 				Code.loadConst(1);
+				//Code.loadConst(0);
 				Code.put(Code.bprint);
 				hasFuncCall=false;
 				return;
 			}
 			Code.loadConst(5);
+			//Code.loadConst(0);
 			Code.put(Code.print);
 			hasFuncCall=false;
 		}
 		else if(ps.getExpr().obj.getType().equals(MJParserTest.boolType)){
 			report_info("aaeee3",ps);
+		
 			Code.loadConst(5);
+			//Code.loadConst(0);
 			Code.put(Code.print);
 		}
 		else if(printHasBrackets){
@@ -186,11 +173,128 @@ public class CodeGenerator extends VisitorAdaptor {
 		}else {
 			report_info("aaeee2",ps);
 			Code.loadConst(1);
+			//Code.loadConst(0);
 			Code.put(Code.bprint);
 		}
 	}
 	int oldVar=0,oldFp=0;
+
+	/*
+
+    Tab.lenObj.setAdr(Code.pc);
+    Code.put(Code.enter);
+    Code.put(Code.load);
+    Code.put(Code.load);
+    Code.put(Code.load_n);
+    Code.put(Code.arraylength);
+    Code.put(Code.exit);
+    Code.put(Code.return_);*/
+
 	
+	//boolean hasWidth = false;
+	public void visit(PrintWithNumConstStatement ps) {
+		if(ps.getExpr().obj.getType().equals(Tab.intType)){
+			report_info("aaeee6",ps);
+			Code.loadConst(ps.getN1());
+			
+			Code.put(Code.print);
+		}else if(ps.getExpr().obj.getType().getKind()==3 ) {
+			report_info("aaeee7",ps);
+			if(!printHasBrackets) {
+				report_info(""+ps.getN1(),ps);
+				report_info("aaeee8",ps);
+				boolean isIntArr = ps.getExpr().obj.getType().getElemType().getKind()==1;
+				report_info("usao",ps);
+				int placeToJmp = 0;
+				int toPatch=0;
+				
+				Code.load(cnt);
+				Code.loadConst(0);
+				Code.store(cnt);
+				Code.put(Code.pop);
+				placeToJmp = Code.pc;
+				Code.put(Code.dup);
+				
+				Code.put(Code.dup);
+				Code.put(Code.arraylength);
+				
+				Code.load(cnt);
+				Code.put(Code.dup_x1);
+				Code.putFalseJump(1, 0);
+				toPatch = Code.pc-2;
+				if(isIntArr) Code.put(Code.aload); else Code.put(Code.baload);
+				if(isIntArr) {
+					
+					Code.loadConst(ps.getN1());
+					//Code.loadConst(0);
+					Code.put(Code.print);
+				}else {
+					Code.loadConst(ps.getN1());
+					//Code.loadConst(0);
+					Code.put(Code.bprint);
+				}
+				Code.load(cnt);
+				Code.put(Code.const_1);
+				Code.put(Code.add);
+				Code.store(cnt);
+				Code.putJump(placeToJmp);
+				Code.fixup(toPatch);
+				
+				
+				
+				
+				printHasBrackets=false;
+				return;
+			}else {
+				if(ps.getExpr().obj.getType().getElemType().getKind()==1) {
+					//Code.put(Code.aload);
+					Code.loadConst(ps.getN1());
+					//Code.loadConst(0);
+					Code.put(Code.print);
+				}else {
+					//Code.put(Code.baload);
+					Code.loadConst(ps.getN1());
+					//Code.loadConst(0);
+					Code.put(Code.bprint);
+				}
+				
+				
+			
+			}
+			
+		}else if(hasFuncCall) {
+			//Code.put(Code.pop);
+			report_info("aaeee4",ps);
+			if(ps.getExpr().obj.getType().equals(Tab.charType)) {
+				Code.loadConst(ps.getN1());
+				//Code.loadConst(0);
+				Code.put(Code.bprint);
+				hasFuncCall=false;
+				return;
+			}
+			Code.loadConst(ps.getN1());
+			//Code.loadConst(0);
+			Code.put(Code.print);
+			hasFuncCall=false;
+		}
+		else if(ps.getExpr().obj.getType().equals(MJParserTest.boolType)){
+			report_info("aaeee3",ps);
+		
+			Code.loadConst(ps.getN1());
+			//Code.loadConst(0);
+			Code.put(Code.print);
+		}
+		else if(printHasBrackets){
+			report_info("aaeee1",ps);
+			
+		}else {
+			report_info("aaeee2",ps);
+			Code.loadConst(ps.getN1()
+					);
+			//Code.loadConst(0);
+			Code.put(Code.bprint);
+		}
+	}
 	public void visit(FactorDesignatorBrace f) {
 		Obj functionObj = f.getDesignator().obj;
 		int offset = functionObj.getAdr() - Code.pc;
@@ -445,4 +549,7 @@ public class CodeGenerator extends VisitorAdaptor {
 		//Code.put(Code.pop);
 		
 	}
+	
+	
+	
 }

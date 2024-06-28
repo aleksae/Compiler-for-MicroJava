@@ -1,0 +1,1554 @@
+INFO  15:52:26,690 - Compiling source file: D:\ETF\rti.PP1\test\MJCompiler\test\program.mj
+INFO  15:52:26,743 - #3 program
+INFO  15:52:26,743 - #47 test301
+INFO  15:52:26,743 - #23 const
+INFO  15:52:26,744 - #47 int
+INFO  15:52:26,744 - #47 nula
+INFO  15:52:26,744 - #21 =
+INFO  15:52:26,745 - #48 0
+INFO  15:52:26,745 - #15 ;
+INFO  15:52:26,745 - #23 const
+INFO  15:52:26,746 - #47 int
+INFO  15:52:26,746 - #47 jedan
+INFO  15:52:26,746 - #21 =
+INFO  15:52:26,746 - #48 1
+INFO  15:52:26,746 - #15 ;
+INFO  15:52:26,746 - #23 const
+INFO  15:52:26,746 - #47 int
+INFO  15:52:26,746 - #47 pet
+INFO  15:52:26,746 - #21 =
+INFO  15:52:26,746 - #48 5
+INFO  15:52:26,746 - #15 ;
+INFO  15:52:26,747 - #47 int
+INFO  15:52:26,747 - #47 niz
+INFO  15:52:26,748 - #26 [
+INFO  15:52:26,748 - #42 ]
+INFO  15:52:26,748 - #9 ,
+INFO  15:52:26,749 - #47 niz2
+INFO  15:52:26,749 - #26 [
+INFO  15:52:26,749 - #42 ]
+INFO  15:52:26,749 - #15 ;
+INFO  15:52:26,749 - #47 char
+INFO  15:52:26,749 - #47 nizch
+INFO  15:52:26,749 - #26 [
+INFO  15:52:26,749 - #42 ]
+INFO  15:52:26,749 - #15 ;
+INFO  15:52:26,749 - #20 {
+INFO  15:52:26,750 - #11 void
+INFO  15:52:26,751 - #47 main
+INFO  15:52:26,751 - #4 (
+INFO  15:52:26,752 - #5 )
+INFO  15:52:26,752 - #47 int
+INFO  15:52:26,752 - #47 bodovi
+INFO  15:52:26,752 - #15 ;
+INFO  15:52:26,752 - #47 bool
+INFO  15:52:26,753 - #47 bt
+INFO  15:52:26,753 - #15 ;
+INFO  15:52:26,753 - #20 {
+INFO  15:52:26,753 - #47 bodovi
+INFO  15:52:26,754 - #21 =
+INFO  15:52:26,754 - #48 0
+INFO  15:52:26,754 - #15 ;
+INFO  15:52:26,756 - #47 bodovi
+INFO  15:52:26,756 - #32 ++
+INFO  15:52:26,756 - #15 ;
+INFO  15:52:26,757 - #47 bodovi
+INFO  15:52:26,757 - #21 =
+INFO  15:52:26,757 - #47 bodovi
+INFO  15:52:26,757 - #8 +
+INFO  15:52:26,757 - #47 jedan
+INFO  15:52:26,758 - #15 ;
+INFO  15:52:26,759 - #47 bodovi
+INFO  15:52:26,759 - #21 =
+INFO  15:52:26,759 - #47 bodovi
+INFO  15:52:26,759 - #28 *
+INFO  15:52:26,759 - #47 pet
+INFO  15:52:26,760 - #15 ;
+INFO  15:52:26,760 - #47 bodovi
+INFO  15:52:26,760 - #45 --
+INFO  15:52:26,760 - #15 ;
+INFO  15:52:26,761 - #10 print
+INFO  15:52:26,761 - #4 (
+INFO  15:52:26,761 - #47 bodovi
+INFO  15:52:26,761 - #5 )
+INFO  15:52:26,761 - #15 ;
+INFO  15:52:26,761 - #47 niz
+INFO  15:52:26,761 - #21 =
+INFO  15:52:26,761 - #17 new
+INFO  15:52:26,761 - #47 int
+INFO  15:52:26,761 - #26 [
+INFO  15:52:26,761 - #48 3
+INFO  15:52:26,761 - #42 ]
+INFO  15:52:26,761 - #15 ;
+INFO  15:52:26,762 - #47 niz
+INFO  15:52:26,762 - #26 [
+INFO  15:52:26,762 - #47 nula
+INFO  15:52:26,762 - #42 ]
+INFO  15:52:26,762 - #21 =
+INFO  15:52:26,762 - #47 jedan
+INFO  15:52:26,762 - #15 ;
+INFO  15:52:26,762 - #47 niz
+INFO  15:52:26,762 - #26 [
+INFO  15:52:26,762 - #48 1
+INFO  15:52:26,762 - #42 ]
+INFO  15:52:26,762 - #21 =
+INFO  15:52:26,762 - #48 2
+INFO  15:52:26,763 - #15 ;
+INFO  15:52:26,763 - #47 niz
+INFO  15:52:26,763 - #26 [
+INFO  15:52:26,763 - #47 niz
+INFO  15:52:26,763 - #26 [
+INFO  15:52:26,763 - #47 jedan
+INFO  15:52:26,763 - #42 ]
+INFO  15:52:26,763 - #42 ]
+INFO  15:52:26,763 - #21 =
+INFO  15:52:26,763 - #47 niz
+INFO  15:52:26,763 - #26 [
+INFO  15:52:26,763 - #47 niz
+INFO  15:52:26,763 - #26 [
+INFO  15:52:26,763 - #48 0
+INFO  15:52:26,763 - #42 ]
+INFO  15:52:26,763 - #42 ]
+INFO  15:52:26,763 - #28 *
+INFO  15:52:26,763 - #48 3
+INFO  15:52:26,763 - #15 ;
+INFO  15:52:26,763 - #47 bodovi
+INFO  15:52:26,764 - #21 =
+INFO  15:52:26,764 - #47 niz
+INFO  15:52:26,764 - #26 [
+INFO  15:52:26,764 - #48 2
+INFO  15:52:26,764 - #42 ]
+INFO  15:52:26,764 - #37 /
+INFO  15:52:26,764 - #47 niz
+INFO  15:52:26,764 - #26 [
+INFO  15:52:26,765 - #48 0
+INFO  15:52:26,765 - #42 ]
+INFO  15:52:26,765 - #15 ;
+INFO  15:52:26,765 - #10 print
+INFO  15:52:26,765 - #4 (
+INFO  15:52:26,765 - #47 bodovi
+INFO  15:52:26,765 - #5 )
+INFO  15:52:26,765 - #15 ;
+INFO  15:52:26,765 - #10 print
+INFO  15:52:26,765 - #4 (
+INFO  15:52:26,765 - #47 niz
+INFO  15:52:26,765 - #26 [
+INFO  15:52:26,765 - #48 2
+INFO  15:52:26,765 - #42 ]
+INFO  15:52:26,765 - #5 )
+INFO  15:52:26,765 - #15 ;
+INFO  15:52:26,766 - #47 nizch
+INFO  15:52:26,766 - #21 =
+INFO  15:52:26,766 - #17 new
+INFO  15:52:26,766 - #47 char
+INFO  15:52:26,766 - #26 [
+INFO  15:52:26,766 - #48 3
+INFO  15:52:26,766 - #42 ]
+INFO  15:52:26,766 - #15 ;
+INFO  15:52:26,766 - #47 nizch
+INFO  15:52:26,766 - #26 [
+INFO  15:52:26,766 - #48 0
+INFO  15:52:26,766 - #42 ]
+INFO  15:52:26,766 - #21 =
+INFO  15:52:26,766 - #49 'a'
+INFO  15:52:26,766 - #15 ;
+INFO  15:52:26,766 - #47 nizch
+INFO  15:52:26,766 - #26 [
+INFO  15:52:26,766 - #47 jedan
+INFO  15:52:26,766 - #42 ]
+INFO  15:52:26,766 - #21 =
+INFO  15:52:26,767 - #49 'b'
+INFO  15:52:26,767 - #15 ;
+INFO  15:52:26,767 - #47 nizch
+INFO  15:52:26,767 - #26 [
+INFO  15:52:26,767 - #47 pet
+INFO  15:52:26,767 - #22 -
+INFO  15:52:26,767 - #48 3
+INFO  15:52:26,767 - #42 ]
+INFO  15:52:26,768 - #21 =
+INFO  15:52:26,768 - #49 'c'
+INFO  15:52:26,768 - #15 ;
+INFO  15:52:26,768 - #10 print
+INFO  15:52:26,768 - #4 (
+INFO  15:52:26,768 - #47 nizch
+INFO  15:52:26,768 - #26 [
+INFO  15:52:26,768 - #48 1
+INFO  15:52:26,768 - #42 ]
+INFO  15:52:26,768 - #5 )
+INFO  15:52:26,768 - #15 ;
+INFO  15:52:26,768 - #10 print
+INFO  15:52:26,768 - #4 (
+INFO  15:52:26,768 - #47 nizch
+INFO  15:52:26,768 - #26 [
+INFO  15:52:26,768 - #47 jedan
+INFO  15:52:26,768 - #28 *
+INFO  15:52:26,768 - #48 2
+INFO  15:52:26,769 - #42 ]
+INFO  15:52:26,769 - #5 )
+INFO  15:52:26,769 - #15 ;
+INFO  15:52:26,769 - #47 bodovi
+INFO  15:52:26,769 - #21 =
+INFO  15:52:26,769 - #47 bodovi
+INFO  15:52:26,769 - #8 +
+INFO  15:52:26,769 - #4 (
+INFO  15:52:26,769 - #47 pet
+INFO  15:52:26,769 - #28 *
+INFO  15:52:26,769 - #47 jedan
+INFO  15:52:26,769 - #22 -
+INFO  15:52:26,769 - #48 1
+INFO  15:52:26,769 - #5 )
+INFO  15:52:26,769 - #28 *
+INFO  15:52:26,769 - #47 bodovi
+INFO  15:52:26,769 - #22 -
+INFO  15:52:26,769 - #4 (
+INFO  15:52:26,769 - #48 3
+INFO  15:52:26,770 - #18 %
+INFO  15:52:26,770 - #48 2
+INFO  15:52:26,770 - #8 +
+INFO  15:52:26,770 - #48 3
+INFO  15:52:26,770 - #28 *
+INFO  15:52:26,770 - #48 2
+INFO  15:52:26,770 - #22 -
+INFO  15:52:26,770 - #48 3
+INFO  15:52:26,770 - #5 )
+INFO  15:52:26,771 - #15 ;
+INFO  15:52:26,771 - #10 print
+INFO  15:52:26,771 - #4 (
+INFO  15:52:26,771 - #47 bodovi
+INFO  15:52:26,771 - #5 )
+INFO  15:52:26,771 - #15 ;
+INFO  15:52:26,771 - #31 read
+INFO  15:52:26,771 - #4 (
+INFO  15:52:26,771 - #47 bodovi
+INFO  15:52:26,771 - #5 )
+INFO  15:52:26,771 - #15 ;
+INFO  15:52:26,771 - #10 print
+INFO  15:52:26,771 - #4 (
+INFO  15:52:26,771 - #47 bodovi
+INFO  15:52:26,771 - #5 )
+INFO  15:52:26,771 - #15 ;
+INFO  15:52:26,771 - #47 niz2
+INFO  15:52:26,771 - #21 =
+INFO  15:52:26,771 - #53 range
+INFO  15:52:26,771 - #4 (
+INFO  15:52:26,771 - #47 bodovi
+INFO  15:52:26,772 - #8 +
+INFO  15:52:26,772 - #48 1
+INFO  15:52:26,772 - #5 )
+INFO  15:52:26,772 - #15 ;
+INFO  15:52:26,772 - #10 print
+INFO  15:52:26,772 - #4 (
+INFO  15:52:26,772 - #47 niz2
+INFO  15:52:26,772 - #9 ,
+INFO  15:52:26,772 - #48 4
+INFO  15:52:26,772 - #5 )
+INFO  15:52:26,772 - #15 ;
+INFO  15:52:26,772 - #40 }
+INFO  15:52:26,772 - #40 }
+INFO  15:52:26,780 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  NoNamespace(
+  ) [NoNamespace]
+  DecleareConst(
+    ConstDeclaration(
+      TypeNoColon(
+       int
+      ) [TypeNoColon]
+      ConstName(
+       nula
+      ) [ConstName]
+      NumConst(
+       0
+      ) [NumConst]
+      NoRepeatConstDecl(
+      ) [NoRepeatConstDecl]
+    ) [ConstDeclaration]
+    DecleareConst(
+      ConstDeclaration(
+        TypeNoColon(
+         int
+        ) [TypeNoColon]
+        ConstName(
+         jedan
+        ) [ConstName]
+        NumConst(
+         1
+        ) [NumConst]
+        NoRepeatConstDecl(
+        ) [NoRepeatConstDecl]
+      ) [ConstDeclaration]
+      DecleareConst(
+        ConstDeclaration(
+          TypeNoColon(
+           int
+          ) [TypeNoColon]
+          ConstName(
+           pet
+          ) [ConstName]
+          NumConst(
+           5
+          ) [NumConst]
+          NoRepeatConstDecl(
+          ) [NoRepeatConstDecl]
+        ) [ConstDeclaration]
+        DeclVariable(
+          VariableDeclarationArray(
+            TypeNoColon(
+             int
+            ) [TypeNoColon]
+            VariableName(
+             niz
+            ) [VariableName]
+            VarDeclRepeatArr(
+              NoVarDeclRepeat(
+              ) [NoVarDeclRepeat]
+              VariableName(
+               niz2
+              ) [VariableName]
+            ) [VarDeclRepeatArr]
+          ) [VariableDeclarationArray]
+          DeclVariable(
+            VariableDeclarationArray(
+              TypeNoColon(
+               char
+              ) [TypeNoColon]
+              VariableName(
+               nizch
+              ) [VariableName]
+              NoVarDeclRepeat(
+              ) [NoVarDeclRepeat]
+            ) [VariableDeclarationArray]
+            NoDecl(
+            ) [NoDecl]
+          ) [DeclVariable]
+        ) [DeclVariable]
+      ) [DecleareConst]
+    ) [DecleareConst]
+  ) [DecleareConst]
+  MethodDeclaration(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodName(
+      TypeVoid(
+      ) [TypeVoid]
+     main
+    ) [MethodName]
+    NoFormParams(
+    ) [NoFormParams]
+    MethodVarDeclaration(
+      VariableDeclaration(
+        TypeNoColon(
+         int
+        ) [TypeNoColon]
+        VariableName(
+         bodovi
+        ) [VariableName]
+        NoVarDeclRepeat(
+        ) [NoVarDeclRepeat]
+      ) [VariableDeclaration]
+      MethodVarDeclaration(
+        VariableDeclaration(
+          TypeNoColon(
+           bool
+          ) [TypeNoColon]
+          VariableName(
+           bt
+          ) [VariableName]
+          NoVarDeclRepeat(
+          ) [NoVarDeclRepeat]
+        ) [VariableDeclaration]
+        NoMethodVarDecl(
+        ) [NoMethodVarDecl]
+      ) [MethodVarDeclaration]
+    ) [MethodVarDeclaration]
+    RepeatStmnt(
+      RepeatStmnt(
+        RepeatStmnt(
+          RepeatStmnt(
+            RepeatStmnt(
+              RepeatStmnt(
+                RepeatStmnt(
+                  RepeatStmnt(
+                    RepeatStmnt(
+                      RepeatStmnt(
+                        RepeatStmnt(
+                          RepeatStmnt(
+                            RepeatStmnt(
+                              RepeatStmnt(
+                                RepeatStmnt(
+                                  RepeatStmnt(
+                                    RepeatStmnt(
+                                      RepeatStmnt(
+                                        RepeatStmnt(
+                                          RepeatStmnt(
+                                            RepeatStmnt(
+                                              RepeatStmnt(
+                                                RepeatStmnt(
+                                                  RepeatStmnt(
+                                                    RepeatStmnt(
+                                                      NoRepeatStmnt(
+                                                      ) [NoRepeatStmnt]
+                                                      StatementDesign(
+                                                        DesignatorStmntOne(
+                                                          NoDesignatorRepetable(
+                                                            DesignatorRegular(
+                                                             bodovi
+                                                            ) [DesignatorRegular]
+                                                          ) [NoDesignatorRepetable]
+                                                          DesignatorStatementAssign(
+                                                            Expression(
+                                                              Term(
+                                                                FactorNum(
+                                                                 0
+                                                                ) [FactorNum]
+                                                                NoRepTerm(
+                                                                ) [NoRepTerm]
+                                                              ) [Term]
+                                                              NoExpressionRepetable(
+                                                              ) [NoExpressionRepetable]
+                                                            ) [Expression]
+                                                          ) [DesignatorStatementAssign]
+                                                        ) [DesignatorStmntOne]
+                                                      ) [StatementDesign]
+                                                    ) [RepeatStmnt]
+                                                    StatementDesign(
+                                                      DesignatorStmntOne(
+                                                        NoDesignatorRepetable(
+                                                          DesignatorRegular(
+                                                           bodovi
+                                                          ) [DesignatorRegular]
+                                                        ) [NoDesignatorRepetable]
+                                                        DesignatorStatementInc(
+                                                        ) [DesignatorStatementInc]
+                                                      ) [DesignatorStmntOne]
+                                                    ) [StatementDesign]
+                                                  ) [RepeatStmnt]
+                                                  StatementDesign(
+                                                    DesignatorStmntOne(
+                                                      NoDesignatorRepetable(
+                                                        DesignatorRegular(
+                                                         bodovi
+                                                        ) [DesignatorRegular]
+                                                      ) [NoDesignatorRepetable]
+                                                      DesignatorStatementAssign(
+                                                        Expression(
+                                                          Term(
+                                                            FactorDesignator(
+                                                              NoDesignatorRepetable(
+                                                                DesignatorRegular(
+                                                                 bodovi
+                                                                ) [DesignatorRegular]
+                                                              ) [NoDesignatorRepetable]
+                                                            ) [FactorDesignator]
+                                                            NoRepTerm(
+                                                            ) [NoRepTerm]
+                                                          ) [Term]
+                                                          ExpressionRepetable(
+                                                            AddopPlus(
+                                                            ) [AddopPlus]
+                                                            Term(
+                                                              FactorDesignator(
+                                                                NoDesignatorRepetable(
+                                                                  DesignatorRegular(
+                                                                   jedan
+                                                                  ) [DesignatorRegular]
+                                                                ) [NoDesignatorRepetable]
+                                                              ) [FactorDesignator]
+                                                              NoRepTerm(
+                                                              ) [NoRepTerm]
+                                                            ) [Term]
+                                                            NoExpressionRepetable(
+                                                            ) [NoExpressionRepetable]
+                                                          ) [ExpressionRepetable]
+                                                        ) [Expression]
+                                                      ) [DesignatorStatementAssign]
+                                                    ) [DesignatorStmntOne]
+                                                  ) [StatementDesign]
+                                                ) [RepeatStmnt]
+                                                StatementDesign(
+                                                  DesignatorStmntOne(
+                                                    NoDesignatorRepetable(
+                                                      DesignatorRegular(
+                                                       bodovi
+                                                      ) [DesignatorRegular]
+                                                    ) [NoDesignatorRepetable]
+                                                    DesignatorStatementAssign(
+                                                      Expression(
+                                                        Term(
+                                                          FactorDesignator(
+                                                            NoDesignatorRepetable(
+                                                              DesignatorRegular(
+                                                               bodovi
+                                                              ) [DesignatorRegular]
+                                                            ) [NoDesignatorRepetable]
+                                                          ) [FactorDesignator]
+                                                          RepetableTerminal(
+                                                            MulopMul(
+                                                            ) [MulopMul]
+                                                            FactorDesignator(
+                                                              NoDesignatorRepetable(
+                                                                DesignatorRegular(
+                                                                 pet
+                                                                ) [DesignatorRegular]
+                                                              ) [NoDesignatorRepetable]
+                                                            ) [FactorDesignator]
+                                                            NoRepTerm(
+                                                            ) [NoRepTerm]
+                                                          ) [RepetableTerminal]
+                                                        ) [Term]
+                                                        NoExpressionRepetable(
+                                                        ) [NoExpressionRepetable]
+                                                      ) [Expression]
+                                                    ) [DesignatorStatementAssign]
+                                                  ) [DesignatorStmntOne]
+                                                ) [StatementDesign]
+                                              ) [RepeatStmnt]
+                                              StatementDesign(
+                                                DesignatorStmntOne(
+                                                  NoDesignatorRepetable(
+                                                    DesignatorRegular(
+                                                     bodovi
+                                                    ) [DesignatorRegular]
+                                                  ) [NoDesignatorRepetable]
+                                                  DesignatorStatementDec(
+                                                  ) [DesignatorStatementDec]
+                                                ) [DesignatorStmntOne]
+                                              ) [StatementDesign]
+                                            ) [RepeatStmnt]
+                                            PrintStatement(
+                                              Expression(
+                                                Term(
+                                                  FactorDesignator(
+                                                    NoDesignatorRepetable(
+                                                      DesignatorRegular(
+                                                       bodovi
+                                                      ) [DesignatorRegular]
+                                                    ) [NoDesignatorRepetable]
+                                                  ) [FactorDesignator]
+                                                  NoRepTerm(
+                                                  ) [NoRepTerm]
+                                                ) [Term]
+                                                NoExpressionRepetable(
+                                                ) [NoExpressionRepetable]
+                                              ) [Expression]
+                                            ) [PrintStatement]
+                                          ) [RepeatStmnt]
+                                          StatementDesign(
+                                            DesignatorStmntOne(
+                                              NoDesignatorRepetable(
+                                                DesignatorRegular(
+                                                 niz
+                                                ) [DesignatorRegular]
+                                              ) [NoDesignatorRepetable]
+                                              DesignatorStatementAssign(
+                                                Expression(
+                                                  Term(
+                                                    FactorNewFac(
+                                                      TypeNoColon(
+                                                       int
+                                                      ) [TypeNoColon]
+                                                      FactorArrHasE(
+                                                        Expression(
+                                                          Term(
+                                                            FactorNum(
+                                                             3
+                                                            ) [FactorNum]
+                                                            NoRepTerm(
+                                                            ) [NoRepTerm]
+                                                          ) [Term]
+                                                          NoExpressionRepetable(
+                                                          ) [NoExpressionRepetable]
+                                                        ) [Expression]
+                                                      ) [FactorArrHasE]
+                                                    ) [FactorNewFac]
+                                                    NoRepTerm(
+                                                    ) [NoRepTerm]
+                                                  ) [Term]
+                                                  NoExpressionRepetable(
+                                                  ) [NoExpressionRepetable]
+                                                ) [Expression]
+                                              ) [DesignatorStatementAssign]
+                                            ) [DesignatorStmntOne]
+                                          ) [StatementDesign]
+                                        ) [RepeatStmnt]
+                                        StatementDesign(
+                                          DesignatorStmntOne(
+                                            DesignatorIdentBrackets(
+                                              NoDesignatorRepetable(
+                                                DesignatorRegular(
+                                                 niz
+                                                ) [DesignatorRegular]
+                                              ) [NoDesignatorRepetable]
+                                              Expression(
+                                                Term(
+                                                  FactorDesignator(
+                                                    NoDesignatorRepetable(
+                                                      DesignatorRegular(
+                                                       nula
+                                                      ) [DesignatorRegular]
+                                                    ) [NoDesignatorRepetable]
+                                                  ) [FactorDesignator]
+                                                  NoRepTerm(
+                                                  ) [NoRepTerm]
+                                                ) [Term]
+                                                NoExpressionRepetable(
+                                                ) [NoExpressionRepetable]
+                                              ) [Expression]
+                                            ) [DesignatorIdentBrackets]
+                                            DesignatorStatementAssign(
+                                              Expression(
+                                                Term(
+                                                  FactorDesignator(
+                                                    NoDesignatorRepetable(
+                                                      DesignatorRegular(
+                                                       jedan
+                                                      ) [DesignatorRegular]
+                                                    ) [NoDesignatorRepetable]
+                                                  ) [FactorDesignator]
+                                                  NoRepTerm(
+                                                  ) [NoRepTerm]
+                                                ) [Term]
+                                                NoExpressionRepetable(
+                                                ) [NoExpressionRepetable]
+                                              ) [Expression]
+                                            ) [DesignatorStatementAssign]
+                                          ) [DesignatorStmntOne]
+                                        ) [StatementDesign]
+                                      ) [RepeatStmnt]
+                                      StatementDesign(
+                                        DesignatorStmntOne(
+                                          DesignatorIdentBrackets(
+                                            NoDesignatorRepetable(
+                                              DesignatorRegular(
+                                               niz
+                                              ) [DesignatorRegular]
+                                            ) [NoDesignatorRepetable]
+                                            Expression(
+                                              Term(
+                                                FactorNum(
+                                                 1
+                                                ) [FactorNum]
+                                                NoRepTerm(
+                                                ) [NoRepTerm]
+                                              ) [Term]
+                                              NoExpressionRepetable(
+                                              ) [NoExpressionRepetable]
+                                            ) [Expression]
+                                          ) [DesignatorIdentBrackets]
+                                          DesignatorStatementAssign(
+                                            Expression(
+                                              Term(
+                                                FactorNum(
+                                                 2
+                                                ) [FactorNum]
+                                                NoRepTerm(
+                                                ) [NoRepTerm]
+                                              ) [Term]
+                                              NoExpressionRepetable(
+                                              ) [NoExpressionRepetable]
+                                            ) [Expression]
+                                          ) [DesignatorStatementAssign]
+                                        ) [DesignatorStmntOne]
+                                      ) [StatementDesign]
+                                    ) [RepeatStmnt]
+                                    StatementDesign(
+                                      DesignatorStmntOne(
+                                        DesignatorIdentBrackets(
+                                          NoDesignatorRepetable(
+                                            DesignatorRegular(
+                                             niz
+                                            ) [DesignatorRegular]
+                                          ) [NoDesignatorRepetable]
+                                          Expression(
+                                            Term(
+                                              FactorDesignator(
+                                                DesignatorIdentBrackets(
+                                                  NoDesignatorRepetable(
+                                                    DesignatorRegular(
+                                                     niz
+                                                    ) [DesignatorRegular]
+                                                  ) [NoDesignatorRepetable]
+                                                  Expression(
+                                                    Term(
+                                                      FactorDesignator(
+                                                        NoDesignatorRepetable(
+                                                          DesignatorRegular(
+                                                           jedan
+                                                          ) [DesignatorRegular]
+                                                        ) [NoDesignatorRepetable]
+                                                      ) [FactorDesignator]
+                                                      NoRepTerm(
+                                                      ) [NoRepTerm]
+                                                    ) [Term]
+                                                    NoExpressionRepetable(
+                                                    ) [NoExpressionRepetable]
+                                                  ) [Expression]
+                                                ) [DesignatorIdentBrackets]
+                                              ) [FactorDesignator]
+                                              NoRepTerm(
+                                              ) [NoRepTerm]
+                                            ) [Term]
+                                            NoExpressionRepetable(
+                                            ) [NoExpressionRepetable]
+                                          ) [Expression]
+                                        ) [DesignatorIdentBrackets]
+                                        DesignatorStatementAssign(
+                                          Expression(
+                                            Term(
+                                              FactorDesignator(
+                                                DesignatorIdentBrackets(
+                                                  NoDesignatorRepetable(
+                                                    DesignatorRegular(
+                                                     niz
+                                                    ) [DesignatorRegular]
+                                                  ) [NoDesignatorRepetable]
+                                                  Expression(
+                                                    Term(
+                                                      FactorDesignator(
+                                                        DesignatorIdentBrackets(
+                                                          NoDesignatorRepetable(
+                                                            DesignatorRegular(
+                                                             niz
+                                                            ) [DesignatorRegular]
+                                                          ) [NoDesignatorRepetable]
+                                                          Expression(
+                                                            Term(
+                                                              FactorNum(
+                                                               0
+                                                              ) [FactorNum]
+                                                              NoRepTerm(
+                                                              ) [NoRepTerm]
+                                                            ) [Term]
+                                                            NoExpressionRepetable(
+                                                            ) [NoExpressionRepetable]
+                                                          ) [Expression]
+                                                        ) [DesignatorIdentBrackets]
+                                                      ) [FactorDesignator]
+                                                      NoRepTerm(
+                                                      ) [NoRepTerm]
+                                                    ) [Term]
+                                                    NoExpressionRepetable(
+                                                    ) [NoExpressionRepetable]
+                                                  ) [Expression]
+                                                ) [DesignatorIdentBrackets]
+                                              ) [FactorDesignator]
+                                              RepetableTerminal(
+                                                MulopMul(
+                                                ) [MulopMul]
+                                                FactorNum(
+                                                 3
+                                                ) [FactorNum]
+                                                NoRepTerm(
+                                                ) [NoRepTerm]
+                                              ) [RepetableTerminal]
+                                            ) [Term]
+                                            NoExpressionRepetable(
+                                            ) [NoExpressionRepetable]
+                                          ) [Expression]
+                                        ) [DesignatorStatementAssign]
+                                      ) [DesignatorStmntOne]
+                                    ) [StatementDesign]
+                                  ) [RepeatStmnt]
+                                  StatementDesign(
+                                    DesignatorStmntOne(
+                                      NoDesignatorRepetable(
+                                        DesignatorRegular(
+                                         bodovi
+                                        ) [DesignatorRegular]
+                                      ) [NoDesignatorRepetable]
+                                      DesignatorStatementAssign(
+                                        Expression(
+                                          Term(
+                                            FactorDesignator(
+                                              DesignatorIdentBrackets(
+                                                NoDesignatorRepetable(
+                                                  DesignatorRegular(
+                                                   niz
+                                                  ) [DesignatorRegular]
+                                                ) [NoDesignatorRepetable]
+                                                Expression(
+                                                  Term(
+                                                    FactorNum(
+                                                     2
+                                                    ) [FactorNum]
+                                                    NoRepTerm(
+                                                    ) [NoRepTerm]
+                                                  ) [Term]
+                                                  NoExpressionRepetable(
+                                                  ) [NoExpressionRepetable]
+                                                ) [Expression]
+                                              ) [DesignatorIdentBrackets]
+                                            ) [FactorDesignator]
+                                            RepetableTerminal(
+                                              MulopSlash(
+                                              ) [MulopSlash]
+                                              FactorDesignator(
+                                                DesignatorIdentBrackets(
+                                                  NoDesignatorRepetable(
+                                                    DesignatorRegular(
+                                                     niz
+                                                    ) [DesignatorRegular]
+                                                  ) [NoDesignatorRepetable]
+                                                  Expression(
+                                                    Term(
+                                                      FactorNum(
+                                                       0
+                                                      ) [FactorNum]
+                                                      NoRepTerm(
+                                                      ) [NoRepTerm]
+                                                    ) [Term]
+                                                    NoExpressionRepetable(
+                                                    ) [NoExpressionRepetable]
+                                                  ) [Expression]
+                                                ) [DesignatorIdentBrackets]
+                                              ) [FactorDesignator]
+                                              NoRepTerm(
+                                              ) [NoRepTerm]
+                                            ) [RepetableTerminal]
+                                          ) [Term]
+                                          NoExpressionRepetable(
+                                          ) [NoExpressionRepetable]
+                                        ) [Expression]
+                                      ) [DesignatorStatementAssign]
+                                    ) [DesignatorStmntOne]
+                                  ) [StatementDesign]
+                                ) [RepeatStmnt]
+                                PrintStatement(
+                                  Expression(
+                                    Term(
+                                      FactorDesignator(
+                                        NoDesignatorRepetable(
+                                          DesignatorRegular(
+                                           bodovi
+                                          ) [DesignatorRegular]
+                                        ) [NoDesignatorRepetable]
+                                      ) [FactorDesignator]
+                                      NoRepTerm(
+                                      ) [NoRepTerm]
+                                    ) [Term]
+                                    NoExpressionRepetable(
+                                    ) [NoExpressionRepetable]
+                                  ) [Expression]
+                                ) [PrintStatement]
+                              ) [RepeatStmnt]
+                              PrintStatement(
+                                Expression(
+                                  Term(
+                                    FactorDesignator(
+                                      DesignatorIdentBrackets(
+                                        NoDesignatorRepetable(
+                                          DesignatorRegular(
+                                           niz
+                                          ) [DesignatorRegular]
+                                        ) [NoDesignatorRepetable]
+                                        Expression(
+                                          Term(
+                                            FactorNum(
+                                             2
+                                            ) [FactorNum]
+                                            NoRepTerm(
+                                            ) [NoRepTerm]
+                                          ) [Term]
+                                          NoExpressionRepetable(
+                                          ) [NoExpressionRepetable]
+                                        ) [Expression]
+                                      ) [DesignatorIdentBrackets]
+                                    ) [FactorDesignator]
+                                    NoRepTerm(
+                                    ) [NoRepTerm]
+                                  ) [Term]
+                                  NoExpressionRepetable(
+                                  ) [NoExpressionRepetable]
+                                ) [Expression]
+                              ) [PrintStatement]
+                            ) [RepeatStmnt]
+                            StatementDesign(
+                              DesignatorStmntOne(
+                                NoDesignatorRepetable(
+                                  DesignatorRegular(
+                                   nizch
+                                  ) [DesignatorRegular]
+                                ) [NoDesignatorRepetable]
+                                DesignatorStatementAssign(
+                                  Expression(
+                                    Term(
+                                      FactorNewFac(
+                                        TypeNoColon(
+                                         char
+                                        ) [TypeNoColon]
+                                        FactorArrHasE(
+                                          Expression(
+                                            Term(
+                                              FactorNum(
+                                               3
+                                              ) [FactorNum]
+                                              NoRepTerm(
+                                              ) [NoRepTerm]
+                                            ) [Term]
+                                            NoExpressionRepetable(
+                                            ) [NoExpressionRepetable]
+                                          ) [Expression]
+                                        ) [FactorArrHasE]
+                                      ) [FactorNewFac]
+                                      NoRepTerm(
+                                      ) [NoRepTerm]
+                                    ) [Term]
+                                    NoExpressionRepetable(
+                                    ) [NoExpressionRepetable]
+                                  ) [Expression]
+                                ) [DesignatorStatementAssign]
+                              ) [DesignatorStmntOne]
+                            ) [StatementDesign]
+                          ) [RepeatStmnt]
+                          StatementDesign(
+                            DesignatorStmntOne(
+                              DesignatorIdentBrackets(
+                                NoDesignatorRepetable(
+                                  DesignatorRegular(
+                                   nizch
+                                  ) [DesignatorRegular]
+                                ) [NoDesignatorRepetable]
+                                Expression(
+                                  Term(
+                                    FactorNum(
+                                     0
+                                    ) [FactorNum]
+                                    NoRepTerm(
+                                    ) [NoRepTerm]
+                                  ) [Term]
+                                  NoExpressionRepetable(
+                                  ) [NoExpressionRepetable]
+                                ) [Expression]
+                              ) [DesignatorIdentBrackets]
+                              DesignatorStatementAssign(
+                                Expression(
+                                  Term(
+                                    FactorChar(
+                                     'a'
+                                    ) [FactorChar]
+                                    NoRepTerm(
+                                    ) [NoRepTerm]
+                                  ) [Term]
+                                  NoExpressionRepetable(
+                                  ) [NoExpressionRepetable]
+                                ) [Expression]
+                              ) [DesignatorStatementAssign]
+                            ) [DesignatorStmntOne]
+                          ) [StatementDesign]
+                        ) [RepeatStmnt]
+                        StatementDesign(
+                          DesignatorStmntOne(
+                            DesignatorIdentBrackets(
+                              NoDesignatorRepetable(
+                                DesignatorRegular(
+                                 nizch
+                                ) [DesignatorRegular]
+                              ) [NoDesignatorRepetable]
+                              Expression(
+                                Term(
+                                  FactorDesignator(
+                                    NoDesignatorRepetable(
+                                      DesignatorRegular(
+                                       jedan
+                                      ) [DesignatorRegular]
+                                    ) [NoDesignatorRepetable]
+                                  ) [FactorDesignator]
+                                  NoRepTerm(
+                                  ) [NoRepTerm]
+                                ) [Term]
+                                NoExpressionRepetable(
+                                ) [NoExpressionRepetable]
+                              ) [Expression]
+                            ) [DesignatorIdentBrackets]
+                            DesignatorStatementAssign(
+                              Expression(
+                                Term(
+                                  FactorChar(
+                                   'b'
+                                  ) [FactorChar]
+                                  NoRepTerm(
+                                  ) [NoRepTerm]
+                                ) [Term]
+                                NoExpressionRepetable(
+                                ) [NoExpressionRepetable]
+                              ) [Expression]
+                            ) [DesignatorStatementAssign]
+                          ) [DesignatorStmntOne]
+                        ) [StatementDesign]
+                      ) [RepeatStmnt]
+                      StatementDesign(
+                        DesignatorStmntOne(
+                          DesignatorIdentBrackets(
+                            NoDesignatorRepetable(
+                              DesignatorRegular(
+                               nizch
+                              ) [DesignatorRegular]
+                            ) [NoDesignatorRepetable]
+                            Expression(
+                              Term(
+                                FactorDesignator(
+                                  NoDesignatorRepetable(
+                                    DesignatorRegular(
+                                     pet
+                                    ) [DesignatorRegular]
+                                  ) [NoDesignatorRepetable]
+                                ) [FactorDesignator]
+                                NoRepTerm(
+                                ) [NoRepTerm]
+                              ) [Term]
+                              ExpressionRepetable(
+                                AddopMinus(
+                                ) [AddopMinus]
+                                Term(
+                                  FactorNum(
+                                   3
+                                  ) [FactorNum]
+                                  NoRepTerm(
+                                  ) [NoRepTerm]
+                                ) [Term]
+                                NoExpressionRepetable(
+                                ) [NoExpressionRepetable]
+                              ) [ExpressionRepetable]
+                            ) [Expression]
+                          ) [DesignatorIdentBrackets]
+                          DesignatorStatementAssign(
+                            Expression(
+                              Term(
+                                FactorChar(
+                                 'c'
+                                ) [FactorChar]
+                                NoRepTerm(
+                                ) [NoRepTerm]
+                              ) [Term]
+                              NoExpressionRepetable(
+                              ) [NoExpressionRepetable]
+                            ) [Expression]
+                          ) [DesignatorStatementAssign]
+                        ) [DesignatorStmntOne]
+                      ) [StatementDesign]
+                    ) [RepeatStmnt]
+                    PrintStatement(
+                      Expression(
+                        Term(
+                          FactorDesignator(
+                            DesignatorIdentBrackets(
+                              NoDesignatorRepetable(
+                                DesignatorRegular(
+                                 nizch
+                                ) [DesignatorRegular]
+                              ) [NoDesignatorRepetable]
+                              Expression(
+                                Term(
+                                  FactorNum(
+                                   1
+                                  ) [FactorNum]
+                                  NoRepTerm(
+                                  ) [NoRepTerm]
+                                ) [Term]
+                                NoExpressionRepetable(
+                                ) [NoExpressionRepetable]
+                              ) [Expression]
+                            ) [DesignatorIdentBrackets]
+                          ) [FactorDesignator]
+                          NoRepTerm(
+                          ) [NoRepTerm]
+                        ) [Term]
+                        NoExpressionRepetable(
+                        ) [NoExpressionRepetable]
+                      ) [Expression]
+                    ) [PrintStatement]
+                  ) [RepeatStmnt]
+                  PrintStatement(
+                    Expression(
+                      Term(
+                        FactorDesignator(
+                          DesignatorIdentBrackets(
+                            NoDesignatorRepetable(
+                              DesignatorRegular(
+                               nizch
+                              ) [DesignatorRegular]
+                            ) [NoDesignatorRepetable]
+                            Expression(
+                              Term(
+                                FactorDesignator(
+                                  NoDesignatorRepetable(
+                                    DesignatorRegular(
+                                     jedan
+                                    ) [DesignatorRegular]
+                                  ) [NoDesignatorRepetable]
+                                ) [FactorDesignator]
+                                RepetableTerminal(
+                                  MulopMul(
+                                  ) [MulopMul]
+                                  FactorNum(
+                                   2
+                                  ) [FactorNum]
+                                  NoRepTerm(
+                                  ) [NoRepTerm]
+                                ) [RepetableTerminal]
+                              ) [Term]
+                              NoExpressionRepetable(
+                              ) [NoExpressionRepetable]
+                            ) [Expression]
+                          ) [DesignatorIdentBrackets]
+                        ) [FactorDesignator]
+                        NoRepTerm(
+                        ) [NoRepTerm]
+                      ) [Term]
+                      NoExpressionRepetable(
+                      ) [NoExpressionRepetable]
+                    ) [Expression]
+                  ) [PrintStatement]
+                ) [RepeatStmnt]
+                StatementDesign(
+                  DesignatorStmntOne(
+                    NoDesignatorRepetable(
+                      DesignatorRegular(
+                       bodovi
+                      ) [DesignatorRegular]
+                    ) [NoDesignatorRepetable]
+                    DesignatorStatementAssign(
+                      Expression(
+                        Term(
+                          FactorDesignator(
+                            NoDesignatorRepetable(
+                              DesignatorRegular(
+                               bodovi
+                              ) [DesignatorRegular]
+                            ) [NoDesignatorRepetable]
+                          ) [FactorDesignator]
+                          NoRepTerm(
+                          ) [NoRepTerm]
+                        ) [Term]
+                        ExpressionRepetable(
+                          AddopPlus(
+                          ) [AddopPlus]
+                          Term(
+                            LRParFactor(
+                              Expression(
+                                Term(
+                                  FactorDesignator(
+                                    NoDesignatorRepetable(
+                                      DesignatorRegular(
+                                       pet
+                                      ) [DesignatorRegular]
+                                    ) [NoDesignatorRepetable]
+                                  ) [FactorDesignator]
+                                  RepetableTerminal(
+                                    MulopMul(
+                                    ) [MulopMul]
+                                    FactorDesignator(
+                                      NoDesignatorRepetable(
+                                        DesignatorRegular(
+                                         jedan
+                                        ) [DesignatorRegular]
+                                      ) [NoDesignatorRepetable]
+                                    ) [FactorDesignator]
+                                    NoRepTerm(
+                                    ) [NoRepTerm]
+                                  ) [RepetableTerminal]
+                                ) [Term]
+                                ExpressionRepetable(
+                                  AddopMinus(
+                                  ) [AddopMinus]
+                                  Term(
+                                    FactorNum(
+                                     1
+                                    ) [FactorNum]
+                                    NoRepTerm(
+                                    ) [NoRepTerm]
+                                  ) [Term]
+                                  NoExpressionRepetable(
+                                  ) [NoExpressionRepetable]
+                                ) [ExpressionRepetable]
+                              ) [Expression]
+                            ) [LRParFactor]
+                            RepetableTerminal(
+                              MulopMul(
+                              ) [MulopMul]
+                              FactorDesignator(
+                                NoDesignatorRepetable(
+                                  DesignatorRegular(
+                                   bodovi
+                                  ) [DesignatorRegular]
+                                ) [NoDesignatorRepetable]
+                              ) [FactorDesignator]
+                              NoRepTerm(
+                              ) [NoRepTerm]
+                            ) [RepetableTerminal]
+                          ) [Term]
+                          ExpressionRepetable(
+                            AddopMinus(
+                            ) [AddopMinus]
+                            Term(
+                              LRParFactor(
+                                Expression(
+                                  Term(
+                                    FactorNum(
+                                     3
+                                    ) [FactorNum]
+                                    RepetableTerminal(
+                                      MulopPerc(
+                                      ) [MulopPerc]
+                                      FactorNum(
+                                       2
+                                      ) [FactorNum]
+                                      NoRepTerm(
+                                      ) [NoRepTerm]
+                                    ) [RepetableTerminal]
+                                  ) [Term]
+                                  ExpressionRepetable(
+                                    AddopPlus(
+                                    ) [AddopPlus]
+                                    Term(
+                                      FactorNum(
+                                       3
+                                      ) [FactorNum]
+                                      RepetableTerminal(
+                                        MulopMul(
+                                        ) [MulopMul]
+                                        FactorNum(
+                                         2
+                                        ) [FactorNum]
+                                        NoRepTerm(
+                                        ) [NoRepTerm]
+                                      ) [RepetableTerminal]
+                                    ) [Term]
+                                    ExpressionRepetable(
+                                      AddopMinus(
+                                      ) [AddopMinus]
+                                      Term(
+                                        FactorNum(
+                                         3
+                                        ) [FactorNum]
+                                        NoRepTerm(
+                                        ) [NoRepTerm]
+                                      ) [Term]
+                                      NoExpressionRepetable(
+                                      ) [NoExpressionRepetable]
+                                    ) [ExpressionRepetable]
+                                  ) [ExpressionRepetable]
+                                ) [Expression]
+                              ) [LRParFactor]
+                              NoRepTerm(
+                              ) [NoRepTerm]
+                            ) [Term]
+                            NoExpressionRepetable(
+                            ) [NoExpressionRepetable]
+                          ) [ExpressionRepetable]
+                        ) [ExpressionRepetable]
+                      ) [Expression]
+                    ) [DesignatorStatementAssign]
+                  ) [DesignatorStmntOne]
+                ) [StatementDesign]
+              ) [RepeatStmnt]
+              PrintStatement(
+                Expression(
+                  Term(
+                    FactorDesignator(
+                      NoDesignatorRepetable(
+                        DesignatorRegular(
+                         bodovi
+                        ) [DesignatorRegular]
+                      ) [NoDesignatorRepetable]
+                    ) [FactorDesignator]
+                    NoRepTerm(
+                    ) [NoRepTerm]
+                  ) [Term]
+                  NoExpressionRepetable(
+                  ) [NoExpressionRepetable]
+                ) [Expression]
+              ) [PrintStatement]
+            ) [RepeatStmnt]
+            ReadStatement(
+              NoDesignatorRepetable(
+                DesignatorRegular(
+                 bodovi
+                ) [DesignatorRegular]
+              ) [NoDesignatorRepetable]
+            ) [ReadStatement]
+          ) [RepeatStmnt]
+          PrintStatement(
+            Expression(
+              Term(
+                FactorDesignator(
+                  NoDesignatorRepetable(
+                    DesignatorRegular(
+                     bodovi
+                    ) [DesignatorRegular]
+                  ) [NoDesignatorRepetable]
+                ) [FactorDesignator]
+                NoRepTerm(
+                ) [NoRepTerm]
+              ) [Term]
+              NoExpressionRepetable(
+              ) [NoExpressionRepetable]
+            ) [Expression]
+          ) [PrintStatement]
+        ) [RepeatStmnt]
+        StatementDesign(
+          DesignatorStmntOne(
+            NoDesignatorRepetable(
+              DesignatorRegular(
+               niz2
+              ) [DesignatorRegular]
+            ) [NoDesignatorRepetable]
+            DesignatorStatementAssign(
+              Expression(
+                Term(
+                  FactorRange(
+                    Expression(
+                      Term(
+                        FactorDesignator(
+                          NoDesignatorRepetable(
+                            DesignatorRegular(
+                             bodovi
+                            ) [DesignatorRegular]
+                          ) [NoDesignatorRepetable]
+                        ) [FactorDesignator]
+                        NoRepTerm(
+                        ) [NoRepTerm]
+                      ) [Term]
+                      ExpressionRepetable(
+                        AddopPlus(
+                        ) [AddopPlus]
+                        Term(
+                          FactorNum(
+                           1
+                          ) [FactorNum]
+                          NoRepTerm(
+                          ) [NoRepTerm]
+                        ) [Term]
+                        NoExpressionRepetable(
+                        ) [NoExpressionRepetable]
+                      ) [ExpressionRepetable]
+                    ) [Expression]
+                  ) [FactorRange]
+                  NoRepTerm(
+                  ) [NoRepTerm]
+                ) [Term]
+                NoExpressionRepetable(
+                ) [NoExpressionRepetable]
+              ) [Expression]
+            ) [DesignatorStatementAssign]
+          ) [DesignatorStmntOne]
+        ) [StatementDesign]
+      ) [RepeatStmnt]
+      PrintWithNumConstStatement(
+        Expression(
+          Term(
+            FactorDesignator(
+              NoDesignatorRepetable(
+                DesignatorRegular(
+                 niz2
+                ) [DesignatorRegular]
+              ) [NoDesignatorRepetable]
+            ) [FactorDesignator]
+            NoRepTerm(
+            ) [NoRepTerm]
+          ) [Term]
+          NoExpressionRepetable(
+          ) [NoExpressionRepetable]
+        ) [Expression]
+       4
+      ) [PrintWithNumConstStatement]
+    ) [RepeatStmnt]
+  ) [MethodDeclaration]
+) [Program]
+INFO  15:52:26,781 - ===================================
+INFO  15:52:26,785 - Pronadjen je program sa imenom test301 na liniji 3
+INFO  15:52:26,785 - Tekuci tip promenljive int na liniji 5
+INFO  15:52:26,786 - Detektovana konstanta nula na liniji 5
+INFO  15:52:26,786 - Tekuci tip promenljive int na liniji 6
+INFO  15:52:26,786 - Detektovana konstanta jedan na liniji 6
+INFO  15:52:26,786 - Tekuci tip promenljive int na liniji 7
+INFO  15:52:26,786 - Detektovana konstanta pet na liniji 7
+INFO  15:52:26,786 - Tekuci tip promenljive int na liniji 9
+INFO  15:52:26,786 - Detektovana promenljiva niz na liniji 9
+INFO  15:52:26,786 - Detektovana promenljiva niz2 na liniji 9
+INFO  15:52:26,786 - Tekuci tip promenljive char na liniji 10
+INFO  15:52:26,786 - Detektovana promenljiva nizch na liniji 10
+INFO  15:52:26,786 - Povratni tip void
+INFO  15:52:26,786 - Detektovana je metoda main uz povratni tip rs.etf.pp1.symboltable.concepts.Struct@16267862 na liniji 13
+INFO  15:52:26,787 - Tekuci tip promenljive int na liniji 14
+INFO  15:52:26,787 - Detektovana promenljiva bodovi na liniji 14
+INFO  15:52:26,787 - Tekuci tip promenljive je bool na liniji 15
+INFO  15:52:26,787 - Detektovana promenljiva bt na liniji 15
+INFO  15:52:26,787 - Objekat dodat desigantoru bodovi na liniji 17
+INFO  15:52:26,787 - Cc num je sada objekat sa imenom 0 na liniji 17
+INFO  15:52:26,787 - Brack cnt je stavljen na 0 na liniji 17
+INFO  15:52:26,787 - Objekat dodat desigantoru bodovi na liniji 18
+INFO  15:52:26,787 - Objekat dodat desigantoru bodovi na liniji 19
+INFO  15:52:26,787 - Objekat dodat desigantoru bodovi na liniji 19
+INFO  15:52:26,787 - Objekat dodat desigantoru jedan na liniji 19
+INFO  15:52:26,787 - Brack cnt je stavljen na 0 na liniji 19
+INFO  15:52:26,787 - Objekat dodat desigantoru bodovi na liniji 20
+INFO  15:52:26,787 - Objekat dodat desigantoru bodovi na liniji 20
+INFO  15:52:26,788 - Objekat dodat desigantoru pet na liniji 20
+INFO  15:52:26,788 - Brack cnt je stavljen na 0 na liniji 20
+INFO  15:52:26,788 - Objekat dodat desigantoru bodovi na liniji 21
+INFO  15:52:26,788 - Objekat dodat desigantoru bodovi na liniji 22
+INFO  15:52:26,788 - Objekat dodat desigantoru niz na liniji 25
+INFO  15:52:26,788 - Tekuci tip promenljive int na liniji 25
+INFO  15:52:26,788 - Cc num je sada objekat sa imenom 3 na liniji 25
+INFO  15:52:26,788 - Objekat dodat desigantoru niz na liniji 26
+INFO  15:52:26,788 - Objekat dodat desigantoru nula na liniji 26
+INFO  15:52:26,788 - -------------------Usao u ident brack curr je 0 na liniji 26
+INFO  15:52:26,788 - -------------------Curr brack cnt je 1 na liniji 26
+INFO  15:52:26,788 - Objekat dodat desigantoru jedan na liniji 26
+INFO  15:52:26,788 - Brack cnt je stavljen na 0 na liniji 26
+INFO  15:52:26,788 - Objekat dodat desigantoru niz na liniji 27
+INFO  15:52:26,788 - Cc num je sada objekat sa imenom 1 na liniji 27
+INFO  15:52:26,788 - -------------------Usao u ident brack curr je 0 na liniji 27
+INFO  15:52:26,788 - -------------------Curr brack cnt je 1 na liniji 27
+INFO  15:52:26,788 - Cc num je sada objekat sa imenom 2 na liniji 27
+INFO  15:52:26,788 - Brack cnt je stavljen na 0 na liniji 27
+INFO  15:52:26,788 - Objekat dodat desigantoru niz na liniji 28
+INFO  15:52:26,788 - Objekat dodat desigantoru niz na liniji 28
+INFO  15:52:26,788 - Objekat dodat desigantoru jedan na liniji 28
+INFO  15:52:26,788 - -------------------Usao u ident brack curr je 0 na liniji 28
+INFO  15:52:26,788 - -------------------Curr brack cnt je 1 na liniji 28
+INFO  15:52:26,788 - -------------------Usao u ident brack curr je 1 na liniji 28
+INFO  15:52:26,788 - -------------------Curr brack cnt je 2 na liniji 28
+INFO  15:52:26,788 - Objekat dodat desigantoru niz na liniji 28
+INFO  15:52:26,789 - Objekat dodat desigantoru niz na liniji 28
+INFO  15:52:26,789 - Cc num je sada objekat sa imenom 0 na liniji 28
+INFO  15:52:26,789 - -------------------Usao u ident brack curr je 2 na liniji 28
+INFO  15:52:26,789 - -------------------Curr brack cnt je 3 na liniji 28
+INFO  15:52:26,789 - -------------------Usao u ident brack curr je 3 na liniji 28
+INFO  15:52:26,789 - -------------------Curr brack cnt je 4 na liniji 28
+INFO  15:52:26,789 - Cc num je sada objekat sa imenom 3 na liniji 28
+INFO  15:52:26,789 - Brack cnt je stavljen na 0 na liniji 28
+INFO  15:52:26,789 - Objekat dodat desigantoru bodovi na liniji 29
+INFO  15:52:26,789 - Objekat dodat desigantoru niz na liniji 29
+INFO  15:52:26,789 - Cc num je sada objekat sa imenom 2 na liniji 29
+INFO  15:52:26,789 - -------------------Usao u ident brack curr je 0 na liniji 29
+INFO  15:52:26,789 - -------------------Curr brack cnt je 1 na liniji 29
+INFO  15:52:26,789 - Objekat dodat desigantoru niz na liniji 29
+INFO  15:52:26,789 - Cc num je sada objekat sa imenom 0 na liniji 29
+INFO  15:52:26,790 - -------------------Usao u ident brack curr je 1 na liniji 29
+INFO  15:52:26,790 - -------------------Curr brack cnt je 2 na liniji 29
+INFO  15:52:26,790 - Brack cnt je stavljen na 0 na liniji 29
+INFO  15:52:26,790 - Objekat dodat desigantoru bodovi na liniji 30
+INFO  15:52:26,790 - Objekat dodat desigantoru niz na liniji 31
+INFO  15:52:26,790 - Cc num je sada objekat sa imenom 2 na liniji 31
+INFO  15:52:26,790 - -------------------Usao u ident brack curr je 0 na liniji 31
+INFO  15:52:26,790 - -------------------Curr brack cnt je 1 na liniji 31
+INFO  15:52:26,790 - Objekat dodat desigantoru nizch na liniji 34
+INFO  15:52:26,790 - Tekuci tip promenljive char na liniji 34
+INFO  15:52:26,790 - Cc num je sada objekat sa imenom 3 na liniji 34
+INFO  15:52:26,790 - Objekat dodat desigantoru nizch na liniji 35
+INFO  15:52:26,790 - Cc num je sada objekat sa imenom 0 na liniji 35
+INFO  15:52:26,790 - -------------------Usao u ident brack curr je 1 na liniji 35
+INFO  15:52:26,790 - -------------------Curr brack cnt je 2 na liniji 35
+INFO  15:52:26,790 - Brack cnt je stavljen na 0 na liniji 35
+INFO  15:52:26,791 - Objekat dodat desigantoru nizch na liniji 36
+INFO  15:52:26,791 - Objekat dodat desigantoru jedan na liniji 36
+INFO  15:52:26,791 - -------------------Usao u ident brack curr je 0 na liniji 36
+INFO  15:52:26,791 - -------------------Curr brack cnt je 1 na liniji 36
+INFO  15:52:26,791 - Brack cnt je stavljen na 0 na liniji 36
+INFO  15:52:26,791 - Objekat dodat desigantoru nizch na liniji 37
+INFO  15:52:26,791 - Objekat dodat desigantoru pet na liniji 37
+INFO  15:52:26,791 - Cc num je sada objekat sa imenom 3 na liniji 37
+INFO  15:52:26,791 - -------------------Usao u ident brack curr je 0 na liniji 37
+INFO  15:52:26,791 - -------------------Curr brack cnt je 1 na liniji 37
+INFO  15:52:26,791 - Brack cnt je stavljen na 0 na liniji 37
+INFO  15:52:26,791 - Objekat dodat desigantoru nizch na liniji 38
+INFO  15:52:26,791 - Cc num je sada objekat sa imenom 1 na liniji 38
+INFO  15:52:26,791 - -------------------Usao u ident brack curr je 0 na liniji 38
+INFO  15:52:26,791 - -------------------Curr brack cnt je 1 na liniji 38
+INFO  15:52:26,791 - Objekat dodat desigantoru nizch na liniji 39
+INFO  15:52:26,791 - Objekat dodat desigantoru jedan na liniji 39
+INFO  15:52:26,791 - Cc num je sada objekat sa imenom 2 na liniji 39
+INFO  15:52:26,791 - -------------------Usao u ident brack curr je 1 na liniji 39
+INFO  15:52:26,791 - -------------------Curr brack cnt je 2 na liniji 39
+INFO  15:52:26,791 - Objekat dodat desigantoru bodovi na liniji 42
+INFO  15:52:26,791 - Objekat dodat desigantoru bodovi na liniji 42
+INFO  15:52:26,791 - Objekat dodat desigantoru pet na liniji 42
+INFO  15:52:26,791 - Objekat dodat desigantoru jedan na liniji 42
+INFO  15:52:26,791 - Cc num je sada objekat sa imenom 1 na liniji 42
+INFO  15:52:26,791 - Objekat dodat desigantoru bodovi na liniji 42
+INFO  15:52:26,792 - Cc num je sada objekat sa imenom 3 na liniji 42
+INFO  15:52:26,792 - Cc num je sada objekat sa imenom 2 na liniji 42
+INFO  15:52:26,792 - Cc num je sada objekat sa imenom 3 na liniji 42
+INFO  15:52:26,792 - Cc num je sada objekat sa imenom 2 na liniji 42
+INFO  15:52:26,792 - Cc num je sada objekat sa imenom 3 na liniji 42
+INFO  15:52:26,792 - Brack cnt je stavljen na 0 na liniji 42
+INFO  15:52:26,792 - Objekat dodat desigantoru bodovi na liniji 43
+INFO  15:52:26,792 - Objekat dodat desigantoru bodovi na liniji 45
+INFO  15:52:26,792 - read stmnt sem pass na liniji 45
+INFO  15:52:26,792 - Objekat dodat desigantoru bodovi na liniji 46
+INFO  15:52:26,792 - Objekat dodat desigantoru niz2 na liniji 48
+INFO  15:52:26,792 - Objekat dodat desigantoru bodovi na liniji 48
+INFO  15:52:26,792 - Cc num je sada objekat sa imenom 1 na liniji 48
+INFO  15:52:26,792 - Brack cnt je stavljen na 0 na liniji 48
+INFO  15:52:26,792 - Objekat dodat desigantoru niz2 na liniji 49
+INFO  15:52:26,792 - Kraj tekuce metode
+INFO  15:52:26,792 - Zavrsen je program  na liniji 3
+INFO  15:52:26,792 -  Print count calls = 0
+INFO  15:52:26,792 -  Deklarisanih promenljivih ima = 0
+INFO  15:52:26,792 - ===================================
+INFO  15:52:26,795 - 0 na liniji 5
+INFO  15:52:26,796 - 1 na liniji 6
+INFO  15:52:26,796 - 5 na liniji 7
+INFO  15:52:26,798 - 2 na liniji 13
+INFO  15:52:26,798 - 0 na liniji 13
+INFO  15:52:26,798 - Put za 0 na liniji 17
+INFO  15:52:26,798 - loaded bodovi na liniji 19
+INFO  15:52:26,798 - loaded jedan na liniji 19
+INFO  15:52:26,798 - loaded bodovi na liniji 20
+INFO  15:52:26,798 - loaded pet na liniji 20
+INFO  15:52:26,798 - loaded bodovi na liniji 22
+INFO  15:52:26,798 - aaeee6 na liniji 22
+INFO  15:52:26,798 - Put za 3 na liniji 25
+INFO  15:52:26,798 - loaded nula na liniji 26
+INFO  15:52:26,798 - loaded jedan na liniji 26
+INFO  15:52:26,798 - Put za 1 na liniji 27
+INFO  15:52:26,799 - Put za 2 na liniji 27
+INFO  15:52:26,799 - loaded jedan na liniji 28
+INFO  15:52:26,799 - Put za 0 na liniji 28
+INFO  15:52:26,799 - Put za 3 na liniji 28
+INFO  15:52:26,799 - Put za 2 na liniji 29
+INFO  15:52:26,799 - Put za 0 na liniji 29
+INFO  15:52:26,799 - loaded bodovi na liniji 30
+INFO  15:52:26,799 - aaeee6 na liniji 30
+INFO  15:52:26,799 - Put za 2 na liniji 31
+INFO  15:52:26,799 - aaeee7 na liniji 31
+INFO  15:52:26,799 - Put za 3 na liniji 34
+INFO  15:52:26,799 - Put za 0 na liniji 35
+INFO  15:52:26,799 - Put za 'a' na liniji 35
+INFO  15:52:26,799 - loaded jedan na liniji 36
+INFO  15:52:26,799 - Put za 'b' na liniji 36
+INFO  15:52:26,799 - loaded pet na liniji 37
+INFO  15:52:26,799 - Put za 3 na liniji 37
+INFO  15:52:26,799 - Put za 'c' na liniji 37
+INFO  15:52:26,799 - Put za 1 na liniji 38
+INFO  15:52:26,799 - aaeee7 na liniji 38
+INFO  15:52:26,799 - loaded jedan na liniji 39
+INFO  15:52:26,799 - Put za 2 na liniji 39
+INFO  15:52:26,799 - aaeee7 na liniji 39
+INFO  15:52:26,799 - loaded bodovi na liniji 42
+INFO  15:52:26,800 - loaded pet na liniji 42
+INFO  15:52:26,800 - loaded jedan na liniji 42
+INFO  15:52:26,800 - Put za 1 na liniji 42
+INFO  15:52:26,800 - loaded bodovi na liniji 42
+INFO  15:52:26,800 - Put za 3 na liniji 42
+INFO  15:52:26,800 - Put za 2 na liniji 42
+INFO  15:52:26,800 - Put za 3 na liniji 42
+INFO  15:52:26,800 - Put za 2 na liniji 42
+INFO  15:52:26,800 - Put za 3 na liniji 42
+INFO  15:52:26,800 - loaded bodovi na liniji 43
+INFO  15:52:26,800 - aaeee6 na liniji 43
+INFO  15:52:26,800 - reeeeeeead bodovi na liniji 45
+INFO  15:52:26,800 - loaded bodovi na liniji 46
+INFO  15:52:26,800 - aaeee6 na liniji 46
+INFO  15:52:26,800 - loaded bodovi na liniji 48
+INFO  15:52:26,800 - Put za 1 na liniji 48
+INFO  15:52:26,800 - loaded niz2 na liniji 49
+INFO  15:52:26,800 - aaeee7 na liniji 49
+INFO  15:52:26,800 - 4 na liniji 49
+INFO  15:52:26,800 - aaeee8 na liniji 49
+INFO  15:52:26,800 - usao na liniji 49
+INFO  15:52:26,801 - Parsiranje uspesno zavrseno!
