@@ -13,7 +13,7 @@ Compiler suppoorts the following:
   - Len
   - Range
   - User-defined functions
-  - Read from std input (in all variables)
+  - Read from std input
 - Namespaces
 - Recovery from parser failure
 - Error reporting, with continuation after error detection, to report all existing errors.
