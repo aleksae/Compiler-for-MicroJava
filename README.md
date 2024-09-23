@@ -14,6 +14,5 @@ Compiler suppoorts the following:
   - Range
   - User-defined functions
   - Read from std input
-- Namespaces
 - Recovery from parser failure
 - Error reporting, with continuation after error detection, to report all existing errors.
